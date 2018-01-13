@@ -6,11 +6,11 @@
 ## Contents
 
 - [Threat Detection and Hunting](#threat-detection-and-hunting)
-        - [Tools](#tools)
-	- [Frameworks](#frameworks)
-        - [Resources](#resources)
-        - [Videos](#videos)
-        - [Courses](#courses)
+    - [Tools](#tools)
+    - [Frameworks](#frameworks)
+    - [Resources](#resources)
+    - [Videos](#videos)
+    - [Courses](#courses)
 - [Contribute](#contribute)
 - [License](#license)
 
