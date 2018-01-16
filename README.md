@@ -93,7 +93,7 @@
 
 ### Twitter
 - ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Security guys who tweet about threat detection, hunting, DFIR, and red teaming
-- ["awesome-detection" Collection](https://twitter.com/0x4d31/timelines/952125848508772353) - A collection of tweets about threat detection, hunting, DFIR, and read teaming techniques that can help you create detection logics.
+- ["Awesome Detection" Collection](https://twitter.com/0x4d31/timelines/952125848508772353) - A collection of tweets about threat detection, hunting, DFIR, and read teaming techniques that can help you create detection logics.
 
 
 ## Contribute
