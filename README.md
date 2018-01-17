@@ -44,6 +44,7 @@
 - [NOAH](https://github.com/giMini/NOAH) - PowerShell No Agent Hunting.
 - [PSHunt](https://github.com/Infocyte/PSHunt) - Powershell Threat Hunting Module.
 - [Flare](https://github.com/austin-taylor/flare) - An analytical framework for network traffic and behavioral analytics.
+- [go-audit](https://github.com/slackhq/go-audit) - An alternative to the auditd daemon that ships with many distros.
 
 ### Resources
 
@@ -72,6 +73,9 @@
 - [Flattened MITRE ATT&CK Matrix](https://docs.google.com/spreadsheets/d/1ljXt_ct2J7TuQ45KtvGppHwZUVF7lNxiaAKII6frhOs) - It contains all matrix categories mapped to techniques with examples of application by software or threat actor groups.
 - [Data Science Hunting Funnel](http://www.austintaylor.io/network/traffic/threat/data/science/hunting/funnel/machine/learning/domain/expertise/2017/07/11/data-science-hunting-funnel/)
 - [Use Python & Pandas to Create a D3 Force Directed Network Diagram](http://www.austintaylor.io/d3/python/pandas/2016/02/01/create-d3-chart-python-force-directed/)
+- [Syscall Auditing at Scale](https://slack.engineering/syscall-auditing-at-scale-e6a3ca8ac1b8)
+- [Catching attackers with go-audit and a logging pipeline](https://summitroute.com/blog/2016/12/25/Catching_attackers_with_go-audit_and_a_logging_pipeline/)
+- [The Coventry Conundrum of Threat Intelligence](https://summitroute.com/blog/2015/06/10/the_conventry_conundrum_of_threat_intelligence/)
 
 #### Frameworks
 
@@ -134,6 +138,8 @@
 #### Osquery
 
 - [osquery Across the Enterprise](https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55)
+- [osquery for Security — Part 1](https://medium.com/@clong/osquery-for-security-b66fffdf2daf)
+- [osquery for Security — Part 2](https://medium.com/@clong/osquery-for-security-part-2-2e03de4d3721) - Advanced osquery functionality, File integrity monitoring, process auditing, and more.
 - [Tracking a stolen code-signing certificate with osquery](https://blog.trailofbits.com/2017/10/10/tracking-a-stolen-code-signing-certificate-with-osquery/)
 - [Monitoring macOS hosts with osquery](https://blog.kolide.com/monitoring-macos-hosts-with-osquery-ba5dcc83122d)
 - [Kolide's Blog](https://blog.kolide.com/)
