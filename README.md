@@ -92,6 +92,8 @@
 - [The DML Model](http://ryanstillions.blogspot.com.au/2014/04/the-dml-model_21.html) - The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.
 - [Endgame Hunt Cycle](http://pages.endgame.com/rs/627-YBU-612/images/Endgame%20Hunt%20Methodology%20POV%203.24.16.pdf)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [yara sweeper](https://gitlab.com/nowayout/yara_sweeper) - Live Incident Response utility that scans processes running in memory or files residing on disk (works on Linux, Windows and OSX).
+
 
 #### Research Papers
 
