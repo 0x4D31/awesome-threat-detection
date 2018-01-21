@@ -46,6 +46,7 @@
 - [Flare](https://github.com/austin-taylor/flare) - An analytical framework for network traffic and behavioral analytics.
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the auditd daemon that ships with many distros.
 - [sqhunter](https://github.com/0x4D31/sqhunter) - A simple threat hunting tool based on osquery, Salt Open and Cymon API.
+- [prochunter](https://gitlab.com/nowayout/prochunter) - Linux Process Hunter aims to find hidden process with all userspace and most of the kernelspace rootkits.
 
 ### Resources
 
