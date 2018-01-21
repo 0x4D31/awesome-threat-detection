@@ -46,6 +46,7 @@
 - [Flare](https://github.com/austin-taylor/flare) - An analytical framework for network traffic and behavioral analytics.
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the auditd daemon that ships with many distros.
 - [sqhunter](https://github.com/0x4D31/sqhunter) - A simple threat hunting tool based on osquery, Salt Open and Cymon API.
+- [prochunter](https://gitlab.com/nowayout/prochunter) - Linux Process Hunter aims to find hidden process with all userspace and most of the kernelspace rootkits.
 
 ### Resources
 
@@ -91,6 +92,8 @@
 - [The DML Model](http://ryanstillions.blogspot.com.au/2014/04/the-dml-model_21.html) - The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.
 - [Endgame Hunt Cycle](http://pages.endgame.com/rs/627-YBU-612/images/Endgame%20Hunt%20Methodology%20POV%203.24.16.pdf)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [yara sweeper](https://gitlab.com/nowayout/yara_sweeper) - Live Incident Response utility that scans processes running in memory or files residing on disk (works on Linux, Windows and OSX).
+
 
 #### Research Papers
 
