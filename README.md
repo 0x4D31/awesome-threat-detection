@@ -21,8 +21,8 @@
     - [Trainings](#trainings)
     - [Twitter](#twitter)
 - [Threat Simulation](#threat-simulation)
-    - [Tools](#sim-tools)
-    - [Resources](#sim-resources)
+    - [Adversary Simulation Tools](#adversary-simulation-tools)
+    - [Adversary Simulation Resources](#adversary-simulation-resources)
 - [Contribute](#contribute)
 - [License](#license)
 
