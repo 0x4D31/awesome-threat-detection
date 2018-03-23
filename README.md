@@ -211,6 +211,7 @@ A curated list of awesome adversary simulation resources
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests mapped to the Mitre ATT&CK Framework.
 - [Network Flight Simulator](https://github.com/alphasoc/flightsim) - flightsim is a lightweight utility used to generate malicious network traffic and help security teams to evaluate security controls and network visibility.
 - [Metta](https://github.com/uber-common/metta) - A security preparedness tool to do adversarial simulation.
+- [Red Team Automation (RTA)](https://github.com/endgameinc/RTA) - RTA provides a framework of scripts designed to allow blue teams to test their detection capabilities against malicious tradecraft, modeled after MITRE ATT&CK.
 - [SharpShooter](https://github.com/mdsecactivebreach/SharpShooter) - Payload Generation Framework.
 - [CACTUSTORCH](https://github.com/mdsecactivebreach/CACTUSTORCH) - Payload Generation for Adversary Simulations.
 - [DumpsterFire](https://github.com/TryCatchHCF/DumpsterFire) - A modular, menu-driven, cross-platform tool for building repeatable, time-delayed, distributed security events.
@@ -226,6 +227,7 @@ A curated list of awesome adversary simulation resources
 - [SpecterOps Blog](https://posts.specterops.io/)
 - [Advanced Threat Tactics](https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/) - A free course on red team operations and adversary simulations.
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Modelling APT32 in CALDERA 
+- [Introducing Endgame Red Team Automation](https://www.endgame.com/blog/technical-blog/introducing-endgame-red-team-automation)
 
 ## Contribute
 
