@@ -228,7 +228,7 @@ A curated list of awesome adversary simulation resources
 - [Advanced Threat Tactics](https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/) - A free course on red team operations and adversary simulations.
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Modelling APT32 in CALDERA 
 - [Introducing Endgame Red Team Automation](https://www.endgame.com/blog/technical-blog/introducing-endgame-red-team-automation)
-- [Red Teaming/Adversary Simulation Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit): A collection of open source and commercial tools that aid in red team operations.
+- [Red Teaming/Adversary Simulation Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) - A collection of open source and commercial tools that aid in red team operations.
 
 ## Contribute
 
