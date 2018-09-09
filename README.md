@@ -165,6 +165,7 @@
 - [Tracking a stolen code-signing certificate with osquery](https://blog.trailofbits.com/2017/10/10/tracking-a-stolen-code-signing-certificate-with-osquery/)
 - [Monitoring macOS hosts with osquery](https://blog.kolide.com/monitoring-macos-hosts-with-osquery-ba5dcc83122d)
 - [Kolide's Blog](https://blog.kolide.com/)
+- [The osquery Extensions Skunkworks Project](https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions)
 
 #### Sysmon
 
