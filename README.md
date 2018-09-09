@@ -49,6 +49,7 @@
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the auditd daemon that ships with many distros.
 - [sqhunter](https://github.com/0x4D31/sqhunter) - A simple threat hunting tool based on osquery, Salt Open and Cymon API.
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
+- [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
 
 ### Resources
 
