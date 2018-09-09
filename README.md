@@ -200,8 +200,9 @@
 ### Trainings
 
 - [Threat Hunting Academy](https://threathunting.org)
-- [SANS FOR508](https://www.sans.org/course/advanced-incident-response-threat-hunting-training) - Advanced Digital Forensics, Incident Response, and Threat Hunting.
+- [SANS SEC555](https://www.sans.org/course/siem-with-tactical-analytics) - SIEM with Tactical Analytics.
 - [eLearnSecurity THP](https://www.elearnsecurity.com/course/threat_hunting_professional/) - Threat Hunting Professional
+- [SpecterOps Adversary Tactics: Detection](https://specterops.io/how-we-help/training-offerings/adversary-tactics-detection)
 
 
 ### Twitter
