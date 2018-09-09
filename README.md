@@ -54,6 +54,7 @@
 - [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients
 - [Bro-Osquery](https://github.com/bro/bro-osquery) - Bro integration with osquery
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
+- [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
 
 
 ### Dataset
@@ -127,6 +128,7 @@
 - [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
 - [CyberWardog's Blog](https://cyberwardog.blogspot.com)
 - [Chris Sanders' Blog](https://chrissanders.org)
+- [Kolide Blog](https://blog.kolide.com/)
 
 #### DNS
 
