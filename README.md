@@ -52,6 +52,9 @@
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
 - [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
 - [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients
+- [Bro-Osquery](https://github.com/bro/bro-osquery) - Bro integration with osquery
+- [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
+
 
 ### Dataset
 
@@ -91,6 +94,7 @@
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Building a real-time threat detection capability with Tanium that focuses on documented adversarial techniques.
 - [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
 - [SANS DFIR Summit Archives](https://www.sans.org/summit-archives/dfir) - Threat hunting and DFIR summit slides
+- [Bro-Osquery](https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf) - Large-Scale Host and Network Monitoring Using Open-Source Software
 
 #### Frameworks
 
