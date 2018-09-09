@@ -53,6 +53,11 @@
 - [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
 - [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients
 
+### Dataset
+
+- [SecRepo.com](https://www.secrepo.com)([github repo](https://github.com/sooshie/secrepo)) - Samples of security related data.
+- [Boss of the SOC (BOTS) Dataset Version 1](https://github.com/splunk/botsv1)
+
 ### Resources
 
 - [Huntpedia](http://info.sqrrl.com/huntpedia) - Your Threat Hunting Knowledge Compendium
