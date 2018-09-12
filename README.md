@@ -11,13 +11,14 @@
     - [DataSet](#dataset)
     - [Resources](#resources)
         - [Frameworks](#frameworks)
-        - [Research Papers](#research-papers)
-        - [Blogs](#blogs)
         - [DNS](#dns)
         - [Command and Control](#command-and-control)
-        - [PowerShell](#powershell)
         - [Osquery](#osquery)
-        - [Sysmon](#sysmon)
+        - [Windows](#windows)
+            - [Sysmon](#sysmon)
+            - [PowerShell](#powershell)
+        - [Research Papers](#research-papers)
+        - [Blogs](#blogs)
     - [Videos](#videos)
     - [Trainings](#trainings)
     - [Twitter](#twitter)
@@ -112,24 +113,6 @@
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [Sigma](https://github.com/Neo23x0/sigma) - Generic Signature Format for SIEM Systems
 
-#### Research Papers
-
-- [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
-- [The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf)
-- [EXPOSURE: Finding Malicious Domains Using Passive DNS Analysis](https://www.cs.ucsb.edu/~chris/research/doc/ndss11_exposure.pdf)
-- A Comprehensive Approach to Intrusion Detection Alert Correlation ([Paper](https://www.cs.ucsb.edu/~vigna/publications/2004_valeur_vigna_kruegel_kemmerer_TDSC_Correlation.pdf), [Dissertation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.8310&rep=rep1&type=pdf))
-- [On Botnets that use DNS for Command and Control](http://www.few.vu.nl/~herbertb/papers/feederbot_ec2nd11.pdf)
-- [Intelligent, Automated Red Team Emulation](https://dl.acm.org/citation.cfm?id=2991111)
-
-#### Blogs
-
-- [David Bianco's Blog](https://detect-respond.blogspot.com)
-- [sqrrl Hunting Blog](https://sqrrl.com/blog/)
-- [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
-- [CyberWardog's Blog](https://cyberwardog.blogspot.com)
-- [Chris Sanders' Blog](https://chrissanders.org)
-- [Kolide Blog](https://blog.kolide.com/)
-
 #### DNS
 
 - [Leveraging DNS to Surface Attacker Activity](http://sqrrl.com/media/Webinar-Leveraging-DNS-Slides.pdf)
@@ -151,13 +134,6 @@
 - [Detect Beaconing with Flare, Elastic Stack, and Intrusion Detection Systems](http://www.austintaylor.io/detect/beaconing/intrusion/detection/system/command/control/flare/elastic/stack/2017/06/10/detect-beaconing-with-flare-elasticsearch-and-intrusion-detection-systems/)
 - [Rise of Legitimate Services for Backdoor Command and Control](https://anomali.cdn.rackfoundry.net/files/anomali-labs-reports/legit-services.pdf)
 
-#### PowerShell
-
-- Revoke-Obfuscation: PowerShell Obfuscation Detection Using Science ([Paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf), [Slides](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science.pdf))
-- [Hunting the Known Unknowns (With PowerShell)](https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf)
-- [HellsBells, Let's Hunt PowerShells!](https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html)
-- [Hunting for PowerShell Using Heatmaps](https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d)
-
 #### Osquery
 
 - [osquery Across the Enterprise](https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55)
@@ -168,7 +144,11 @@
 - [Kolide's Blog](https://blog.kolide.com/)
 - [The osquery Extensions Skunkworks Project](https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions)
 
-#### Sysmon
+#### Windows
+
+- dddd
+
+##### Sysmon
 
 - [Splunking the Endpoint: Threat Hunting with Sysmon](https://medium.com/@haggis_m/splunking-the-endpoint-threat-hunting-with-sysmon-9dd956e3e1bd)
     - [Hunting with Sysmon](https://medium.com/@haggis_m/hunting-with-sysmon-38de012e62e6)
@@ -180,6 +160,30 @@
 - [The Sysmon and Threat Hunting Mimikatz wiki for the blue team](https://www.peerlyst.com/posts/the-sysmon-and-threat-hunting-mimikatz-wiki-for-the-blue-team-guurhart)
 - [Splunkmon — Taking Sysmon to the Next Level](https://www.crypsisgroup.com/wp-content/uploads/2017/07/CG_WhitePaper_Splunkmon_1216-1.pdf)
 
+##### PowerShell
+
+- Revoke-Obfuscation: PowerShell Obfuscation Detection Using Science ([Paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf), [Slides](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science.pdf))
+- [Hunting the Known Unknowns (With PowerShell)](https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf)
+- [HellsBells, Let's Hunt PowerShells!](https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html)
+- [Hunting for PowerShell Using Heatmaps](https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d)
+
+#### Research Papers
+
+- [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
+- [The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf)
+- [EXPOSURE: Finding Malicious Domains Using Passive DNS Analysis](https://www.cs.ucsb.edu/~chris/research/doc/ndss11_exposure.pdf)
+- A Comprehensive Approach to Intrusion Detection Alert Correlation ([Paper](https://www.cs.ucsb.edu/~vigna/publications/2004_valeur_vigna_kruegel_kemmerer_TDSC_Correlation.pdf), [Dissertation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.8310&rep=rep1&type=pdf))
+- [On Botnets that use DNS for Command and Control](http://www.few.vu.nl/~herbertb/papers/feederbot_ec2nd11.pdf)
+- [Intelligent, Automated Red Team Emulation](https://dl.acm.org/citation.cfm?id=2991111)
+
+#### Blogs
+
+- [David Bianco's Blog](https://detect-respond.blogspot.com)
+- [sqrrl Hunting Blog](https://sqrrl.com/blog/)
+- [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
+- [CyberWardog's Blog](https://cyberwardog.blogspot.com)
+- [Chris Sanders' Blog](https://chrissanders.org)
+- [Kolide Blog](https://blog.kolide.com/)
 
 ### Videos
 
