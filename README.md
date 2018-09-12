@@ -146,7 +146,10 @@
 
 #### Windows
 
-- dddd
+- [Threat Hunting via Windows Event Logs](https://www.sans.org/summit-archives/file/summit-archive-1524493093.pdf)
+- [Windows Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets/)
+- [Active Directory Threat Hunting](https://adsecurity.org/wp-content/uploads/2017/04/2017-BSidesCharm-DetectingtheElusive-ActiveDirectoryThreatHunting-Final.pdf)
+- [Windows Hunting](https://github.com/beahunt3r/Windows-Hunting) - A collection of Windows hunting queries
 
 ##### Sysmon
 
