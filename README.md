@@ -52,7 +52,8 @@
 - [sqhunter](https://github.com/0x4D31/sqhunter) - A simple threat hunting tool based on osquery, Salt Open and Cymon API.
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
 - [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
-- [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients
+- [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients and Servers
+- [HASSH](https://github.com/salesforce/hassh) - Profiling Method for SSH Clients and Servers
 - [Bro-Osquery](https://github.com/bro/bro-osquery) - Bro integration with osquery
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
 - [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
@@ -97,6 +98,9 @@
 - [The Coventry Conundrum of Threat Intelligence](https://summitroute.com/blog/2015/06/10/the_conventry_conundrum_of_threat_intelligence/)
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Building a real-time threat detection capability with Tanium that focuses on documented adversarial techniques.
 - [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
+- [TLS Fingerprinting with JA3 and JA3S](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967)
+- [HASSH - a profiling method for SSH Clients and Servers](https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c)
+    - [HASSH @BSides Canberra 2019 - Slides](https://github.com/benjeems/Presentations/blob/master/BSides%202019%20%20-%20HASSH%20-%20a%20Profiling%20Method%20for%20SSH%20Clients%20and%20Servers.pdf)
 - SANS Summit Archives ([DFIR](https://www.sans.org/summit-archives/dfir), [Cyber Defense](https://www.sans.org/summit-archives/cyber-defense)) - Threat hunting, Blue Team and DFIR summit slides
 - [Bro-Osquery](https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf) - Large-Scale Host and Network Monitoring Using Open-Source Software
 
@@ -218,8 +222,10 @@
 - [BSides DC 2016 - Practical Cyborgism: Getting Start with Machine Learning for Incident Detection](https://www.youtube.com/watch?v=2FvP7nwb2UE&feature=youtu.be)
 - [SANS Webcast 2018 - What Event Logs? Part 1: Attacker Tricks to Remove Event Logs](https://www.youtube.com/watch?v=7JIftAw8wQY)
 - [Profiling And Detecting All Things SSL With JA3](https://www.youtube.com/watch?v=oprPu7UIEuk)
+- [ACoD 2019 - HASSH SSH Client/Server Profiling](https://www.youtube.com/watch?v=kG-kenOypLk)
 - [QueryCon 2018](https://www.youtube.com/playlist?list=PLlSdCcsTOu5STvaoPlr-PJE-zbYmlAGrX) - An annual conference for the osquery open-source community ([querycon.io](https://querycon.io))
-
+- [Visual Hunting with Linked Data Graphs](https://www.youtube.com/watch?v=EpK7MkWCh1I)
+- [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
 
 ### Trainings
 
@@ -232,7 +238,6 @@
 ### Twitter
 
 - ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Security guys who tweet about threat detection, hunting, DFIR, and red teaming
-- ["Awesome Detection" Collection](https://twitter.com/0x4d31/timelines/952125848508772353) - A collection of tweets about threat detection, hunting, DFIR, and read teaming techniques that can help you create detection logics.
 - [Top #infosec Twitter Accounts](https://sqrrl.com/top-infosec-twitter-accounts/) (From a Threat Hunter’s Perspective)
 
 
