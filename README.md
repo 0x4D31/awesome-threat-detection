@@ -88,7 +88,7 @@
 - [On TTPs](http://ryanstillions.blogspot.com.au/2014/04/on-ttps.html)
 - [Situational-Awareness Driven Threat Hunting](https://sqrrl.com/situational-awareness-driven-threat-hunting/)
 - Hunting On The Cheap ([Part 1: The Architecture](https://www.endgame.com/blog/technical-blog/hunting-cheap-part-1-architecture), [Part 2: Hunting On Networks](https://www.endgame.com/blog/technical-blog/hunting-networks-part-2-higher-order-patterns), [Part 3: Hunting On Hosts](https://www.endgame.com/blog/technical-blog/hunting-cheap-part-3-hunting-hosts), [Slides](https://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Hunting-on-the-Cheap-Butler-Ahuja-Morris-Endgame.pdf))
-- [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](http://www.brainfold.net/2016/08/threat-hunting-techniques-av-proxy-dns.html)
+- [Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs](https://www.cyberhuntz.com/2016/08/threat-hunting-techniques-av-proxy-dns.html)
 - [Detecting Malware Beacons Using Splunk](https://pleasefeedthegeek.wordpress.com/2012/12/20/detecting-malware-beacons-using-splunk/)
 - [Flattened MITRE ATT&CK Matrix](https://docs.google.com/spreadsheets/d/1ljXt_ct2J7TuQ45KtvGppHwZUVF7lNxiaAKII6frhOs) - It contains all matrix categories mapped to techniques with examples of application by software or threat actor groups.
 - [Data Science Hunting Funnel](http://www.austintaylor.io/network/traffic/threat/data/science/hunting/funnel/machine/learning/domain/expertise/2017/07/11/data-science-hunting-funnel/)
