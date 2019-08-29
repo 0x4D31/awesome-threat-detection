@@ -58,7 +58,7 @@
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
 - [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
 - [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) - A PowerShell Module for Hunt Teaming via Windows Event Logs
-
+- [Meerkat](https://github.com/TonyPhipps/Meerkat) - PowerShell-based Windows artifact collection for threat hunting and incident response.
 
 ### Dataset
 
