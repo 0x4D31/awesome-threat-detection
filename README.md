@@ -103,6 +103,9 @@
     - [HASSH @BSides Canberra 2019 - Slides](https://github.com/benjeems/Presentations/blob/master/BSides%202019%20%20-%20HASSH%20-%20a%20Profiling%20Method%20for%20SSH%20Clients%20and%20Servers.pdf)
 - SANS Summit Archives ([DFIR](https://www.sans.org/summit-archives/dfir), [Cyber Defense](https://www.sans.org/summit-archives/cyber-defense)) - Threat hunting, Blue Team and DFIR summit slides
 - [Bro-Osquery](https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf) - Large-Scale Host and Network Monitoring Using Open-Source Software
+- [Malware Persistence](https://github.com/Karneades/malware-persistence) - Collection 
+  of various information focused on malware persistence: detection (techniques), 
+  response, pitfalls and the log collection (tools).
 
 #### Frameworks
 
