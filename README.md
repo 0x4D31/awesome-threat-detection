@@ -17,6 +17,8 @@
         - [Windows](#windows)
             - [Sysmon](#sysmon)
             - [PowerShell](#powershell)
+        - [Fingerprinting](#fingerprinting)
+            - [Tools & Scripts](#tools-&-scripts)
         - [Research Papers](#research-papers)
         - [Blogs](#blogs)
     - [Videos](#videos)
@@ -45,20 +47,29 @@
 - [Revoke-Obfuscation](https://github.com/danielbohannon/Revoke-Obfuscation) - PowerShell Obfuscation Detection Framework.
 - [Invoke-ATTACKAPI](https://github.com/Cyb3rWard0g/Invoke-ATTACKAPI) - A PowerShell script to interact with the MITRE ATT&CK Framework via its own API.
 - [Unfetter](https://github.com/unfetter-analytic/unfetter) - A reference implementation provides a framework for collecting events (process creation, network connections, Window Event Logs, etc.) from a client machine and performing CAR analytics to detect potential adversary activity.
-- [NOAH](https://github.com/giMini/NOAH) - PowerShell No Agent Hunting.
-- [PSHunt](https://github.com/Infocyte/PSHunt) - Powershell Threat Hunting Module.
 - [Flare](https://github.com/austin-taylor/flare) - An analytical framework for network traffic and behavioral analytics.
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the auditd daemon that ships with many distros.
-- [sqhunter](https://github.com/0x4D31/sqhunter) - A simple threat hunting tool based on osquery, Salt Open and Cymon API.
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
 - [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
-- [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients and Servers
-- [HASSH](https://github.com/salesforce/hassh) - Profiling Method for SSH Clients and Servers
 - [Bro-Osquery](https://github.com/bro/bro-osquery) - Bro integration with osquery
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
-- [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
 - [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) - A PowerShell Module for Hunt Teaming via Windows Event Logs
 
+#### Endpoint Monitoring
+
+- [osquery](https://osquery.io) ([github](https://github.com/osquery/osquery)) - SQL powered operating system instrumentation, monitoring, and analytics
+- [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
+- [Zeek Agent](https://github.com/zeek/zeek-agent) - An endpoint monitoring agent that provides host activity to Zeek
+- [Velociraptor](https://github.com/Velocidex/velociraptor) - Endpoint visibility and collection tool
+- [Sysdig](https://github.com/draios/sysdig) - A tool for deep Linux system visibility, with native support for containers. Think about sysdig as strace + tcpdump + htop + iftop + lsof + ...awesome sauce
+ 
+#### Network Monitoring
+
+- [Zeek](https://github.com/zeek/zeek) (formerly Bro) - A network security monitoring tool
+- [ntopng](https://github.com/ntop/ntopng) - A web-based network traffic monitoring tool
+- [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
+- [Suricata](https://suricata-ids.org) - A network threat detection engine
+- [Snort](https://snort.org) ([github](https://github.com/snort3/snort3)) - A network intrusion detection tool
 
 ### Dataset
 
@@ -97,10 +108,6 @@
 - [Catching attackers with go-audit and a logging pipeline](https://summitroute.com/blog/2016/12/25/Catching_attackers_with_go-audit_and_a_logging_pipeline/)
 - [The Coventry Conundrum of Threat Intelligence](https://summitroute.com/blog/2015/06/10/the_conventry_conundrum_of_threat_intelligence/)
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Building a real-time threat detection capability with Tanium that focuses on documented adversarial techniques.
-- [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
-- [TLS Fingerprinting with JA3 and JA3S](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967)
-- [HASSH - a profiling method for SSH Clients and Servers](https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c)
-    - [HASSH @BSides Canberra 2019 - Slides](https://github.com/benjeems/Presentations/blob/master/BSides%202019%20%20-%20HASSH%20-%20a%20Profiling%20Method%20for%20SSH%20Clients%20and%20Servers.pdf)
 - SANS Summit Archives ([DFIR](https://www.sans.org/summit-archives/dfir), [Cyber Defense](https://www.sans.org/summit-archives/cyber-defense)) - Threat hunting, Blue Team and DFIR summit slides
 - [Bro-Osquery](https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf) - Large-Scale Host and Network Monitoring Using Open-Source Software
 
@@ -180,6 +187,38 @@
 - [Hunting the Known Unknowns (With PowerShell)](https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf)
 - [HellsBells, Let's Hunt PowerShells!](https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html)
 - [Hunting for PowerShell Using Heatmaps](https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d)
+
+#### Fingerprinting
+
+- [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
+- [TLS Fingerprinting with JA3 and JA3S](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967)
+- [HASSH - a profiling method for SSH Clients and Servers](https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c)
+    - [HASSH @BSides Canberra 2019 - Slides](https://github.com/benjeems/Presentations/blob/master/BSides%202019%20%20-%20HASSH%20-%20a%20Profiling%20Method%20for%20SSH%20Clients%20and%20Servers.pdf)
+- [Finding Evil on the Network Using JA3/S and HASSH](https://engineering.salesforce.com/finding-evil-on-the-network-using-ja3-s-and-hassh-11431a8606e4)
+- [RDP Fingerprinting - Profiling RDP Clients with JA3 and RDFP](https://medium.com/@0x4d31/rdp-client-fingerprinting-9e7ac219f7f4)
+- [Effective TLS Fingerprinting Beyond JA3](https://www.ntop.org/ndpi/effective-tls-fingerprinting-beyond-ja3/)
+- [TLS Fingerprinting in the Real World](https://blogs.cisco.com/security/tls-fingerprinting-in-the-real-world)
+- [HTTP Client Fingerprinting Using SSL Handshake Analysis](https://www.ssllabs.com/projects/client-fingerprinting/) (source code: [mod_sslhaf](https://github.com/ssllabs/sslhaf)
+- [TLS fingerprinting - Smarter Defending & Stealthier Attacking](https://blog.squarelemon.com/tls-fingerprinting/)
+- [JA3er](https://ja3er.com) - a DB of JA3 fingerprints
+- [An Introduction to HTTP fingerprinting](https://www.net-square.com/httprint_paper.html)
+- [TLS Fingerprints](https://tlsfingerprint.io/) collected from the University of Colorado Boulder campus network
+- [The use of TLS in Censorship Circumvention](https://tlsfingerprint.io/static/frolov2019.pdf)
+- [TLS Beyond the Browser: Combining End Host and Network Data to Understand Application Behavior](https://dl.acm.org/doi/pdf/10.1145/3355369.3355601)
+- [HTTPS traffic analysis and client identification using passive SSL/TLS fingerprinting](https://link.springer.com/article/10.1186/s13635-016-0030-7)
+- [Markov Chain Fingerprinting to Classify Encrypted Traffic](https://drakkar.imag.fr/IMG/pdf/1569811033.pdf)
+- [HeadPrint: Detecting Anomalous Communications through Header-based Application Fingerprinting](https://www.conand.me/publications/bortolameotti-headprint-2020.pdf)
+
+##### Tools & Scripts
+
+- [JA3](https://github.com/salesforce/ja3) - a method for profiling SSL/TLS Clients and Servers
+- [HASSH](https://github.com/salesforce/hassh) - Profiling Method for SSH Clients and Servers
+- [RDFP](https://github.com/yahoo/rdfp) - Zeek Remote desktop fingerprinting script based on [FATT](https://github.com/0x4D31/fatt) (Fingerprint All The Things)
+- [FATT](https://github.com/0x4D31/fatt) - a pyshark based script for extracting network metadata and fingerprints from pcap files and live network traffic
+- [FingerprinTLS](https://github.com/LeeBrotherston/tls-fingerprinting) - a TLS fingerprinting method
+- [Joy](https://github.com/cisco/joy) - a package for capturing and analyzing network flow data and intraflow data, for network research, forensics, and security monitoring
+- [Mercury](https://github.com/cisco/mercury) - network fingerprinting and packet metadata capture
+
 
 #### Research Papers
 
