@@ -69,6 +69,7 @@
 - [ThreatHunting](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts
 - [Sentinel Attack](https://github.com/BlueTeamLabs/sentinel-attack) - A repository of Azure Sentinel alerts and hunting queries leveraging sysmon and the MITRE ATT&CK framework
 - [Brim](https://github.com/brimsec/brim) - A desktop application to efficiently search large packet captures and Zeek logs
+- [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 
 #### Alerting Engine
 
@@ -155,6 +156,7 @@
 - [Introducing the Funnel of Fidelity](https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036) ([PDF](docs/specterops-IntroducingtheFunnelofFidelity.pdf))
 - [Detection Spectrum](https://posts.specterops.io/detection-spectrum-198a0bfb9302) ([PDF](docs/specterops-DetectionSpectrum.pdf))
 - [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) ([PDF](docs/specterops-CapabilityAbstraction.pdf))
+- [Awesome YARA](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and resources
 
 #### Frameworks
 
