@@ -63,6 +63,7 @@
   - [EQLLib](https://github.com/endgameinc/eqllib) - The Event Query Language Analytics Library (eqllib) is a library of event based analytics, written in EQL to detect adversary behaviors identified in MITRE ATT&CK™.
 - [BZAR](https://github.com/mitre-attack/bzar) (Bro/Zeek ATT&CK-based Analytics and Reporting) - A set of Zeek scripts to detect ATT&CK techniques
 - [Security Onion](https://github.com/Security-Onion-Solutions/security-onion) - An open-source Linux distribution for threat hunting, security monitoring, and log management. It includes ELK, Snort, Suricata, Zeek, Wazuh, Sguil, and many other security tools
+- [PastebinScrapy](https://github.com/apurvsinghgautam/PastebinScrapy) - A Pastebin Threat Hunitng tool to hunt for IOCs from latest pastes.
 - [Varna](https://github.com/endgameinc/varna) - A quick & cheap AWS CloudTrail Monitoring with Event Query Language (EQL)
 - [BinaryAlert](https://github.com/airbnb/binaryalert) - Serverless, real-time & retroactive malware detection
 - [hollows_hunter](https://github.com/hasherezade/hollows_hunter) - Scans all running processes, recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
