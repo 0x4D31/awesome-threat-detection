@@ -149,6 +149,7 @@
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Building a real-time threat detection capability with Tanium that focuses on documented adversarial techniques.
 - SANS Summit Archives ([DFIR](https://www.sans.org/cyber-security-summit/archives/dfir), [Cyber Defense](https://www.sans.org/cyber-security-summit/archives/cyber-defense)) - Threat hunting, Blue Team and DFIR summit slides
 - [Bro-Osquery](https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf) - Large-Scale Host and Network Monitoring Using Open-Source Software
+- [Malware Persistence](https://github.com/Karneades/malware-persistence) - Collection of various information focused on malware persistence: detection (techniques), response, pitfalls and the log collection (tools).
 - [Threat Hunting with Jupyter Notebooks](https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-1-your-first-notebook-9a99a781fde7)
 - [How Dropbox Security builds tools for threat detection and incident response](https://dropbox.tech/security/how-dropbox-security-builds-better-tools-for-threat-detection-and-incident-response)
 - [Introducing Event Query Language](https://www.elastic.co/blog/introducing-event-query-language)
