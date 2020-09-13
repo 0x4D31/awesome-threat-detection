@@ -193,9 +193,12 @@
 #### Command and Control
 
 - [Rise of Legitimate Services for Backdoor Command and Control](docs/legit-services.pdf)
+- [Watch Your Containers](https://www.intezer.com/container-security/watch-your-containers-doki-infecting-docker-servers-in-the-cloud/) - A malware using DogeCoin based DGA to generate C2 domain names.
+
 ##### DoH
 - [Hiding in Plain Sight](https://blog.huntresslabs.com/hiding-in-plain-sight-part-2-dfec817c036f) - A malware abusing Google DoH
-- 
+- [All the DoH](https://twitter.com/stvemillertime/status/1196788709292687360) - A Twitter thread on malware families and utilities that use DNS-over-HTTPS.
+
 
 
 #### Osquery
