@@ -122,6 +122,8 @@
 - [EMBER](https://github.com/endgameinc/ember) ([paper](https://arxiv.org/abs/1804.04637)) - The EMBER dataset is a collection of features from PE files that serve as a benchmark dataset for researchers
 - [theZoo](https://github.com/ytisf/theZoo) - A repository of LIVE malwares
 - [CIC Datasets](https://www.unb.ca/cic/datasets/index.html) - Canadian Institute for Cybersecurity datasets
+- [Netresec's PCAP repo list](https://www.netresec.com/?page=PcapFiles) - A list of public packet capture repositories, which are freely available on the Internet.
+- [PCAP-ATTACK](https://github.com/sbousseaden/PCAP-ATTACK) - A repo of PCAP samples for different ATT&CK techniques.
 
 
 ### Resources
