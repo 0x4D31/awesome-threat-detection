@@ -87,7 +87,7 @@
 - [Sysdig](https://github.com/draios/sysdig) - A tool for deep Linux system visibility, with native support for containers. Think about sysdig as strace + tcpdump + htop + iftop + lsof + ...awesome sauce
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the Linux auditd daemon
 - [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - A Windows system service and device driver that monitors and logs system activity to the Windows event log
-- [OSSEC](github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
+- [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
  
 #### Network Monitoring
