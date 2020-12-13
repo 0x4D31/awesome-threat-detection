@@ -112,6 +112,7 @@
 - [GQUIC Protocol Analyzer for Zeek](https://github.com/salesforce/GQUIC_Protocol_Analyzer)
 - [Recog](https://github.com/rapid7/recog) - A framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes
 - [Hfinger](https://github.com/CERT-Polska/hfinger) - Fingerprinting HTTP requests
+- [JARM](https://github.com/salesforce/jarm) - An active Transport Layer Security (TLS) server fingerprinting tool.
 
 ### Dataset
 
