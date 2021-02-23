@@ -100,6 +100,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Moloch](https://github.com/aol/moloch) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [AIEngine](https://bitbucket.org/camp0/aiengine) - A next generation network intrusion detection system
 
 ##### Fingerprinting Tools
 
