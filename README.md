@@ -285,6 +285,8 @@
 - [CyberWardog's Blog](https://medium.com/@Cyb3rWard0g) ([old](https://cyberwardog.blogspot.com))
 - [Chris Sanders' Blog](https://chrissanders.org)
 - [Kolide Blog](https://blog.kolide.com/)
+- [Anton Chuvakin](https://medium.com/anton-on-security)
+- [Alexandre Teixeira](https://ateixei.medium.com)
 
 ### Videos
 
