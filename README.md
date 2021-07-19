@@ -72,6 +72,7 @@
 - [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 - [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
+- [Uncoder Rule Converter](https://uncoder.io) - A tool that can convert detection content for use with most SIEMs.
 
 #### Alerting Engine
 
