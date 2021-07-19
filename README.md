@@ -168,6 +168,8 @@
 - [Capability Abstraction](https://posts.specterops.io/capability-abstraction-fbeaeeb26384) ([PDF](docs/specterops-CapabilityAbstraction.pdf))
 - [Awesome YARA](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and resources
 - [Defining ATT&CK Data Sources](https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f) - A two-part blog series that outlines a new methodology to extend ATT&CK’s current data sources.
+- [DETT&CT: MAPPING YOUR BLUE TEAM TO MITRE ATT&CK™](https://www.mbsecure.nl/blog/2019/5/dettact-mapping-your-blue-team-to-mitre-attack) - A blog that describes how to align MITRE ATT&CK-based detection content with data sources.
+- Detection as Code in Splunk [Part 1, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html)[Part 2,](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html)[and Part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html) - A multipart series describing how detection as code can be successfully deployed in a Splunk environment.
 
 #### Frameworks
 
