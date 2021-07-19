@@ -182,6 +182,7 @@
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [OSSEM](https://github.com/hunters-forge/OSSEM) (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems
 - [MITRE Shield](https://shield.mitre.org) - A knowledge base of active defense techniques and tactics ([Active Defense Matrix](https://shield.mitre.org/matrix/))
+- [MaGMa Use Case Defintion Model](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf) - A business-centric approach for planning and defining threat detection use cases.
 
 #### DNS
 
