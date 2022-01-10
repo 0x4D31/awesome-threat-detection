@@ -72,6 +72,7 @@
 - [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 - [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
+- [zeek2es](https://github.com/corelight/zeek2es) - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!
 
 #### Alerting Engine
 
