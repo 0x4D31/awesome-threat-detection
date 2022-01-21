@@ -329,6 +329,7 @@
 - [SpecterOps Adversary Tactics: PowerShell](https://github.com/specterops/at-ps) (FREE)
 - [SpecterOps Adversary Tactics: Detection](https://specterops.io/how-we-help/training-offerings/adversary-tactics-detection)
 - [eLearnSecurity THP](https://www.elearnsecurity.com/course/threat_hunting_professional/) - Threat Hunting Professional
+- [CyberWarFare Labs Purple Team Adversary Simulation Labs](https://cyberwarfare.live/PurpleTeamLab.php) (Defense and Monitoring)
 
 
 ### Twitter
