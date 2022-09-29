@@ -298,6 +298,8 @@
 
 #### Books
 
+- [Cyber Threat Hunting](https://www.manning.com/books/cyber-threat-hunting)
+
 ### Videos
 
 - [SANS Threat Hunting and IR Summit 2017](https://www.youtube.com/playlist?list=PLfouvuAjspTr95R60Kt7ZcoerR6tYoCLA)
