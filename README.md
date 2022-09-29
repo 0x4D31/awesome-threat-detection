@@ -24,6 +24,7 @@
         - [Fingerprinting](#fingerprinting)
         - [Research Papers](#research-papers)
         - [Blogs](#blogs)
+        - [Books](#books)
     - [Videos](#videos)
     - [Trainings](#trainings)
     - [Twitter](#twitter)
@@ -294,6 +295,8 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+
+#### Books
 
 ### Videos
 
