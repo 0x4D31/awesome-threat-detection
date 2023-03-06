@@ -277,6 +277,7 @@
 
 - [data_hacking](https://github.com/SuperCowPowers/data_hacking): Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.
 - [Reverse engineering the analyst: building machine learning models for the SOC](https://www.mandiant.com/resources/blog/build-machine-learning-models-for-the-soc)
+- [msticpy](https://github.com/microsoft/msticpy): A library for InfoSec investigation and hunting in Jupyter Notebooks.
 
 ### Research Papers
 
