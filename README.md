@@ -337,6 +337,8 @@
 - [QueryCon 2018](https://www.youtube.com/playlist?list=PLlSdCcsTOu5STvaoPlr-PJE-zbYmlAGrX) - An annual conference for the osquery open-source community ([querycon.io](https://querycon.io))
 - [Visual Hunting with Linked Data Graphs](https://www.youtube.com/watch?v=EpK7MkWCh1I)
 - [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
+- [Insider Threats Detection at Airbus – AI up Against Data Leakage and Industrial Espionage](https://www.youtube.com/watch?v=E2rbyoCFNY4)
+
 
 ## Training
 
