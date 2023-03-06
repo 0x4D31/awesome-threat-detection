@@ -11,6 +11,8 @@
   - 🔍 [Detection Rules](#detection-rules)
   - 📑 [Dataset](#dataset)
   - 📘 [Resources](#resources)
+  - 🎙️ [Podcasts](#podcasts)
+  - 🗞️ [Newsletters](#newsletters)
   - 🎥 [Videos](#videos)
   - 👩‍🎓 [Training](#training)
   - 🤖 [Twitter](#twitter)
