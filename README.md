@@ -339,6 +339,7 @@
 - [Visual Hunting with Linked Data Graphs](https://www.youtube.com/watch?v=EpK7MkWCh1I)
 - [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
 - [Insider Threats Detection at Airbus – AI up Against Data Leakage and Industrial Espionage](https://www.youtube.com/watch?v=E2rbyoCFNY4)
+- [Cyber Security Investigations with Jupyter Notebooks](https://www.youtube.com/watch?v=bOOVxGnbKxI)
 
 
 ## Training
