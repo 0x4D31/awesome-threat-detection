@@ -62,6 +62,7 @@
 - [zeek2es](https://github.com/corelight/zeek2es) - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!
 - [LogSlash](https://github.com/FoxIO-LLC/LogSlash): A standard for reducing log volume without sacrificing analytical capability.
 - [SOC-Multitool](https://github.com/zdhenard42/SOC-Multitool): A powerful and user-friendly browser extension that streamlines investigations for security professionals.
+- [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 
 ### Detection, Alerting and Automation Platforms
 
@@ -169,6 +170,7 @@
 - [DETT&CT: MAPPING YOUR BLUE TEAM TO MITRE ATT&CK™](https://www.mbsecure.nl/blog/2019/5/dettact-mapping-your-blue-team-to-mitre-attack) - A blog that describes how to align MITRE ATT&CK-based detection content with data sources.
 - Detection as Code in Splunk [Part 1, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html)[Part 2, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html)[and Part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html) - A multipart series describing how detection as code can be successfully deployed in a Splunk environment.
 - [Lessons Learned in Detection Engineering](https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856) - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.
+- [A Research-Driven process applied to Threat Detection Engineering Inputs](https://ateixei.medium.com/a-research-driven-process-applied-to-threat-detection-engineering-inputs-1b7e6fe0412b).
 
 ### Frameworks
 
@@ -269,6 +271,10 @@
 - [Markov Chain Fingerprinting to Classify Encrypted Traffic](https://drakkar.imag.fr/IMG/pdf/1569811033.pdf)
 - [HeadPrint: Detecting Anomalous Communications through Header-based Application Fingerprinting](https://www.conand.me/publications/bortolameotti-headprint-2020.pdf)
 
+### Data Science
+
+- [data_hacking](https://github.com/SuperCowPowers/data_hacking): Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.
+
 ### Research Papers
 
 - [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
@@ -288,6 +294,18 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+
+## Podcasts
+
+- Google [Cloud Security Podcast](https://cloud.withgoogle.com/cloudsecurity/podcast/) by Anton Chuvakin and Timothy Peacock.
+- [Detection: Challenging Paradigms](https://www.dcppodcast.com/all-episodes) by SpecterOps
+- [Darknet Diaries](https://darknetdiaries.com) by Andy Greenberg: True stories from the dark side of the Internet.
+- [Risky Business](https://risky.biz) by Patrick Gray
+
+## Newsletters
+
+- [Detection Engineering Weekly](https://www.detectionengineering.net) by Zack 'techy' Allen
+- [This Week in 4n6](https://thisweekin4n6.com): A weekly roundup of digital forensics and incident response news.
 
 ## Videos
 
