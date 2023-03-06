@@ -332,7 +332,7 @@
 - [TryHackMe](https://tryhackme.com): Hands-on cyber security training through real-world scenarios.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
 - [HackTheBox](https://academy.hackthebox.com/): While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
-- (Splunk's BOTS hands-on workshops)[https://bots.splunk.com/]: Practice threat hunting using the BOTS and other datasets.
+- [Splunk's BOTS hands-on workshops](https://bots.splunk.com/): Practice threat hunting using the BOTS and other datasets.
 
 
 ### Twitter
