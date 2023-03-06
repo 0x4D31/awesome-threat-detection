@@ -25,7 +25,7 @@
         - [Research Papers](#research-papers)
         - [Blogs](#blogs)
     - [Videos](#videos)
-    - [Trainings](#trainings)
+    - [Training](#training)
     - [Twitter](#twitter)
 - [Threat Simulation](#threat-simulation)
     - [Tools](#tools-1)
@@ -323,17 +323,21 @@
 - [Visual Hunting with Linked Data Graphs](https://www.youtube.com/watch?v=EpK7MkWCh1I)
 - [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
 
-### Trainings
+### Training
 
-- [SANS SEC555](https://www.sans.org/course/siem-with-tactical-analytics) - SIEM with Tactical Analytics.
-- [SpecterOps Adversary Tactics: PowerShell](https://github.com/specterops/at-ps) (FREE)
-- [SpecterOps Adversary Tactics: Detection](https://specterops.io/how-we-help/training-offerings/adversary-tactics-detection)
-- [eLearnSecurity THP](https://www.elearnsecurity.com/course/threat_hunting_professional/) - Threat Hunting Professional
+- [Applied Network Defense](https://www.networkdefense.co/courses/) courses by Chris Sanders
+  - Investigation theory, Practical threat hunting, Detection engineering with Sigma, etc.
+- [Security Blue Team](https://securityblue.team/) (BTL1 and BTL2 certificates)
+- [LetsDefend](https://letsdefend.io): Hands-On SOC Analyst Training
+- [TryHackMe](https://tryhackme.com): Hands-on cyber security training through real-world scenarios.
+- 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
+- [HackTheBox](https://academy.hackthebox.com/): While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
+- (Splunk's BOTS hands-on workshops)[https://bots.splunk.com/]: Practice threat hunting using the BOTS and other datasets.
 
 
 ### Twitter
 
-- ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Security guys who tweet about threat detection, hunting, DFIR, and red teaming
+- ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Twitter accounts that tweet about threat detection, hunting and DFIR.
 
 ## Threat Simulation
 
