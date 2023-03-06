@@ -60,12 +60,15 @@
 - [Threat Bus](https://github.com/tenzir/threatbus) - Threat intelligence dissemination layer to connect security tools through a distributed publish/subscribe message broker.
 - [VAST](https://github.com/tenzir/vast) - A network telemetry engine for data-driven security investigations.
 - [zeek2es](https://github.com/corelight/zeek2es) - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!
+- [LogSlash](https://github.com/FoxIO-LLC/LogSlash): A standard for reducing log volume without sacrificing analytical capability.
+- [SOC-Multitool](https://github.com/zdhenard42/SOC-Multitool): A powerful and user-friendly browser extension that streamlines investigations for security professionals.
 
-### Detection and Alerting Platforms
+### Detection, Alerting and Automation Platforms
 
 - [ElastAlert](https://github.com/Yelp/elastalert) - A framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch
 - [StreamAlert](https://github.com/airbnb/streamalert) - A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define
 - [Matano](https://github.com/matanolabs/matano): An open source security lake platform (SIEM alternative) for threat hunting, detection and response on AWS. Matano lets you write advanced detections as code (using python) to correlate and alert on threats in realtime.
+- [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 
 ### Endpoint Monitoring
 
