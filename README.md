@@ -6,24 +6,23 @@
 
 ## Contents
 
-- [Threat Detection and Hunting](#threat-detection-and-hunting)
-    -  🔨 [Tools](#tools)
-    - 📑 [DataSet](#dataset)
-    - 📘 [Resources](#resources)
-    - 🎥 [Videos](#videos)
-    - 👩‍🎓 [Training](#training)
-    - 🤖 [Twitter](#twitter)
-- [Threat Simulation](#threat-simulation)
-    - 🔨 [Tools](#tools-1)
-    - 📕 [Resources](#resources-1)
+- Threat Detection and Hunting
+  - 🔨 [Tools](#tools)
+  - 🔍 [Detection Rules](#detection-rules)
+  - 📑 [Dataset](#dataset)
+  - 📘 [Resources](#resources)
+  - 🎥 [Videos](#videos)
+  - 👩‍🎓 [Training](#training)
+  - 🤖 [Twitter](#twitter)
+- Threat Simulation
+  - 🪓 [Tools](#threat-simulation-tools)
+  - 📕 [Resources](#threat-simulation-resources)
 - [Contribute](#contribute)
 - [License](#license)
 
 
-## Threat Detection and Hunting
 
-
-### Tools
+## Tools
 
 - [MITRE ATT&CK Navigator](https://mitre.github.io/attack-navigator/enterprise/)([source code](https://github.com/mitre/attack-navigator)) - The ATT&CK Navigator is designed to provide basic navigation and annotation of ATT&CK matrices, something that people are already doing today in tools like Excel.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
@@ -42,7 +41,6 @@
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
 - [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) - A PowerShell Module for Hunt Teaming via Windows Event Logs
 - [Uncoder](https://uncoder.io) - An online translator for SIEM saved searches, filters, queries, API requests, correlation and Sigma rules
-- [Sigma](https://github.com/Neo23x0/sigma) - Generic Signature Format for SIEM Systems
 - [CimSweep](https://github.com/PowerShellMafia/CimSweep) - A suite of CIM/WMI-based tools that enable the ability to perform incident response and hunting operations remotely across all versions of Windows
 - [Dispatch](https://github.com/Netflix/dispatch) - An open-source crisis management orchestration framework
 - [EQL](https://github.com/endgameinc/eql) - Event Query Language
@@ -63,12 +61,12 @@
 - [VAST](https://github.com/tenzir/vast) - A network telemetry engine for data-driven security investigations.
 - [zeek2es](https://github.com/corelight/zeek2es) - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!
 
-#### Alerting Engine
+### Alerting Engine
 
 - [ElastAlert](https://github.com/Yelp/elastalert) - A framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch
 - [StreamAlert](https://github.com/airbnb/streamalert) - A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define
 
-#### Endpoint Monitoring
+### Endpoint Monitoring
 
 - [osquery](https://osquery.io) ([github](https://github.com/osquery/osquery)) - SQL powered operating system instrumentation, monitoring, and analytics
 - [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
@@ -80,7 +78,7 @@
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
  
-#### Network Monitoring
+### Network Monitoring
 
 - [Zeek](https://github.com/zeek/zeek) (formerly Bro) - A network security monitoring tool
 - [ntopng](https://github.com/ntop/ntopng) - A web-based network traffic monitoring tool
@@ -91,7 +89,7 @@
 - [Moloch](https://github.com/aol/moloch) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
 
-##### Fingerprinting Tools
+#### Fingerprinting Tools
 
 - [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients and Servers
 - [HASSH](https://github.com/salesforce/hassh) - Profiling Method for SSH Clients and Servers
@@ -104,7 +102,14 @@
 - [Hfinger](https://github.com/CERT-Polska/hfinger) - Fingerprinting HTTP requests
 - [JARM](https://github.com/salesforce/jarm) - An active Transport Layer Security (TLS) server fingerprinting tool.
 
-### Dataset
+## Detection Rules
+
+- [Sigma](https://github.com/SigmaHQ/sigma) - Generic Signature Format for SIEM Systems
+- [Splunk Detections](https://research.splunk.com/detections/) and [Analytic stories](https://research.splunk.com/stories/)
+- [Elastic Detection Rules](https://github.com/elastic/detection-rules)
+- [MITRE CAR](https://car.mitre.org/) - The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE based on the Adversary Tactics, Techniques, and Common Knowledge (ATT&CK™) adversary model.
+
+## Dataset
 
 - [Mordor](https://github.com/Cyb3rWard0g/mordor) - Pre-recorded security events generated by simulated adversarial techniques in the form of JavaScript Object Notation (JSON) files. The data is categorized by platforms, adversary groups, tactics and techniques defined by the Mitre ATT&CK Framework.
 - [SecRepo.com](https://www.secrepo.com)([github repo](https://github.com/sooshie/secrepo)) - Samples of security related data.
@@ -119,7 +124,7 @@
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) - A repo of Windows event samples (EVTX) associated with ATT&CK techniques ([EVTX-ATT&CK Sheet](https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082)).
 
 
-### Resources
+## Resources
 
 - [Huntpedia](docs/huntpedia.pdf) - Your Threat Hunting Knowledge Compendium
 - [Hunt Evil](docs/hunt-evil.pdf) - Your Practical Guide to Threat Hunting
@@ -161,10 +166,9 @@
 - Detection as Code in Splunk [Part 1, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html)[Part 2, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html)[and Part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html) - A multipart series describing how detection as code can be successfully deployed in a Splunk environment.
 - [Lessons Learned in Detection Engineering](https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856) - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.
 
-#### Frameworks
+### Frameworks
 
 - [MITRE ATT&CK](https://attack.mitre.org/wiki/Main_Page) - A curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target.
-- [MITRE CAR](https://car.mitre.org/wiki/Main_Page) - The Cyber Analytics Repository (CAR) is a knowledge base of analytics developed by MITRE based on the Adversary Tactics, Techniques, and Common Knowledge (ATT&CK™) adversary model.
 - [Alerting and Detection Strategies Framework](https://github.com/palantir/alerting-detection-strategy-framework) - A framework for developing alerting and detection strategies.
 - [A Simple Hunting Maturity Model](http://detect-respond.blogspot.com.au/2015/10/a-simple-hunting-maturity-model.html) - The Hunting Maturity Model describes five levels of organizational hunting capability, ranging from HMM0 (the least capability) to HMM4 (the most).
 - [The Pyramic of Pain](http://detect-respond.blogspot.com.au/2013/03/the-pyramid-of-pain.html) - The relationship between the types of indicators you might use to detect an adversary's activities and how much pain it will cause them when you are able to deny those indicators to them.
@@ -177,7 +181,7 @@
 - [MITRE Shield](https://shield.mitre.org) - A knowledge base of active defense techniques and tactics ([Active Defense Matrix](https://shield.mitre.org/matrix/))
 - [MaGMa Use Case Defintion Model](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf) - A business-centric approach for planning and defining threat detection use cases.
 
-#### DNS
+### DNS
 
 - [Detecting DNS Tunneling](https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152)
 - [Hunting the Known Unknowns (with DNS)](https://www.splunk.com/pdfs/events/govsummit/hunting_the_known_unknowns_with_DNS.pdf)
@@ -189,18 +193,18 @@
 - [DNS is NOT Boring](https://www.first.org/resources/papers/conf2017/DNS-is-NOT-Boring-Using-DNS-to-Expose-and-Thwart-Attacks.pdf) - Using DNS to Expose and Thwart Attacks
 - [Actionable Detects](https://prezi.com/vejpnxkm85ih/actionable-detects-dns-keynote/) - Blue Team Tactics
 
-#### Command and Control
+### Command and Control
 
 - [Rise of Legitimate Services for Backdoor Command and Control](docs/legit-services.pdf)
 - [Watch Your Containers](https://www.intezer.com/container-security/watch-your-containers-doki-infecting-docker-servers-in-the-cloud/) - A malware using DogeCoin based DGA to generate C2 domain names.
 
-##### DoH
+#### DoH
 - [Hiding in Plain Sight](https://blog.huntresslabs.com/hiding-in-plain-sight-part-2-dfec817c036f) - A malware abusing Google DoH
 - [All the DoH](https://twitter.com/stvemillertime/status/1196788709292687360) - A Twitter thread on malware families and utilities that use DNS-over-HTTPS.
 
 
 
-#### Osquery
+### Osquery
 
 - [osquery Across the Enterprise](https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55)
 - [osquery for Security — Part 1](https://medium.com/@clong/osquery-for-security-b66fffdf2daf)
@@ -210,7 +214,7 @@
 - [Kolide's Blog](https://blog.kolide.com/)
 - [The osquery Extensions Skunkworks Project](https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions)
 
-#### Windows
+### Windows
 
 - [Threat Hunting via Windows Event Logs](https://www.sans.org/summit-archives/file/summit-archive-1524493093.pdf)
 - [Windows Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets/)
@@ -220,7 +224,7 @@
 - [JPCERT - Detecting Lateral Movement through Tracking Event Logs](https://blogs.jpcert.or.jp/en/2017/12/research-report-released-detecting-lateral-movement-through-tracking-event-logs-version-2.html)
     - [Tool Analysis Result Sheet](https://jpcertcc.github.io/ToolAnalysisResultSheet/)
 
-##### Sysmon
+#### Sysmon
 
 - [Splunking the Endpoint: Threat Hunting with Sysmon](https://medium.com/@haggis_m/splunking-the-endpoint-threat-hunting-with-sysmon-9dd956e3e1bd)
     - [Hunting with Sysmon](https://medium.com/@haggis_m/hunting-with-sysmon-38de012e62e6)
@@ -233,14 +237,14 @@
 - [Splunkmon — Taking Sysmon to the Next Level](https://www.crypsisgroup.com/wp-content/uploads/2017/07/CG_WhitePaper_Splunkmon_1216-1.pdf)
 - [Sysmon Threat Detection Guide](https://www.varonis.com/blog/sysmon-threat-detection-guide/) ([PDF](docs/varonis.com-SysmonThreatAnalysisGuide.pdf))
 
-##### PowerShell
+#### PowerShell
 
 - Revoke-Obfuscation: PowerShell Obfuscation Detection Using Science ([Paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf), [Slides](https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science.pdf))
 - [Hunting the Known Unknowns (With PowerShell)](https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf)
 - [HellsBells, Let's Hunt PowerShells!](https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html)
 - [Hunting for PowerShell Using Heatmaps](https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d)
 
-#### Fingerprinting
+### Fingerprinting
 
 - [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
 - [TLS Fingerprinting with JA3 and JA3S](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967)
@@ -261,7 +265,7 @@
 - [Markov Chain Fingerprinting to Classify Encrypted Traffic](https://drakkar.imag.fr/IMG/pdf/1569811033.pdf)
 - [HeadPrint: Detecting Anomalous Communications through Header-based Application Fingerprinting](https://www.conand.me/publications/bortolameotti-headprint-2020.pdf)
 
-#### Research Papers
+### Research Papers
 
 - [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
 - [The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf)
@@ -271,7 +275,7 @@
 - [Intelligent, Automated Red Team Emulation](https://dl.acm.org/citation.cfm?id=2991111)
 - [Machine Learning for Encrypted Malware Traffic Classification](https://dl.acm.org/doi/pdf/10.1145/3097983.3098163)
 
-#### Blogs
+### Blogs
 
 - [David Bianco's Blog](https://detect-respond.blogspot.com)
 - [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
@@ -281,7 +285,7 @@
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
 
-### Videos
+## Videos
 
 - [SANS Threat Hunting and IR Summit 2017](https://www.youtube.com/playlist?list=PLfouvuAjspTr95R60Kt7ZcoerR6tYoCLA)
 - [SANS Threat Hunting and IR Summit 2016](https://www.youtube.com/playlist?list=PLfouvuAjspTokaa-LdUHqszL-KACkCsKT)
@@ -309,7 +313,7 @@
 - [Visual Hunting with Linked Data Graphs](https://www.youtube.com/watch?v=EpK7MkWCh1I)
 - [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
 
-### Training
+## Training
 
 - [Applied Network Defense](https://www.networkdefense.co/courses/) courses by Chris Sanders
   - Investigation theory, Practical threat hunting, Detection engineering with Sigma, etc.
@@ -321,15 +325,12 @@
 - [Splunk's BOTS hands-on workshops](https://bots.splunk.com/): Practice threat hunting using the BOTS and other datasets.
 
 
-### Twitter
+## Twitter
 
 - ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Twitter accounts that tweet about threat detection, hunting and DFIR.
 
-## Threat Simulation
 
-A curated list of awesome adversary simulation resources
-
-### Tools
+## Threat Simulation Tools
 
 - [MITRE CALDERA](https://github.com/mitre/caldera) - An automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks.
 - [APTSimulator](https://github.com/NextronSystems/APTSimulator) - A Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.
@@ -347,7 +348,7 @@ A curated list of awesome adversary simulation resources
 - [Splunk Attack Range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
 
 
-### Resources
+## Threat Simulation Resources
 
 - [MITRE's Adversary Emulation Plans](https://attack.mitre.org/wiki/Adversary_Emulation_Plans)
 - [Awesome Red Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) - A list of awesome red teaming resources
