@@ -199,6 +199,7 @@
 - Detection as Code in Splunk [Part 1, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html)[Part 2, ](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html)[and Part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html) - A multipart series describing how detection as code can be successfully deployed in a Splunk environment.
 - [Lessons Learned in Detection Engineering](https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856) - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.
 - [A Research-Driven process applied to Threat Detection Engineering Inputs](https://ateixei.medium.com/a-research-driven-process-applied-to-threat-detection-engineering-inputs-1b7e6fe0412b).
+- [Investigation Scenario](https://twitter.com/search?q=%23InvestigationPath%20from%3Achrissanders88&f=live) tweets by Chris Sanders
 
 ### Frameworks
 
