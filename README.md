@@ -256,6 +256,10 @@
 - [HellsBells, Let's Hunt PowerShells!](https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html)
 - [Hunting for PowerShell Using Heatmaps](https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d)
 
+### MacOS
+
+- [A Guide to macOS Threat Hunting and Incident Response](docs/SentinalOne_macOS_Threat_Hunting_and_Incident_Response_A_Complete_Guide_17032020-1.pdf)
+
 ### Fingerprinting
 
 - [JA3: SSL/TLS Client Fingerprinting for Malware Detection](https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41)
