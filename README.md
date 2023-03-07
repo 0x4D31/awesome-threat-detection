@@ -8,9 +8,22 @@
 
 - Threat Detection and Hunting
   - 🔨 [Tools](#tools)
+    - [Detection, Alerting and Automation Platforms](#detection-alerting-and-automation-platforms)
+    - [Endpoint Monitoring](#endpoint-monitoring)
+    - [Network Monitoring](#network-monitoring)
   - 🔍 [Detection Rules](#detection-rules)
   - 📑 [Dataset](#dataset)
   - 📘 [Resources](#resources)
+    - [Frameworks](#frameworks)
+    - [Windows](#windows)
+    - [MacOS](#macos)
+    - [Osquery](#osquery)
+    - [DNS](#dns)
+    - [Fingerprinting](#fingerprinting)
+    - [Data Science](#data-science)
+    - [Research Papers](research-papers)
+    - [Blogs](#blogs)
+    - [Related Awesome Lists](#related-awesome-lists)
   - 🎙️ [Podcasts](#podcasts)
   - 🗞️ [Newsletters](#newsletters)
   - 🎥 [Videos](#videos)
@@ -196,39 +209,6 @@ that empowers you to engage your adversaries
 and achieve your cybersecurity goals.
 - [MaGMa Use Case Defintion Model](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf) - A business-centric approach for planning and defining threat detection use cases.
 
-### DNS
-
-- [Detecting DNS Tunneling](https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152)
-- [Hunting the Known Unknowns (with DNS)](https://www.splunk.com/pdfs/events/govsummit/hunting_the_known_unknowns_with_DNS.pdf)
-- [Detecting dynamic DNS domains in Splunk](https://www.splunk.com/blog/2015/08/04/detecting-dynamic-dns-domains-in-splunk.html)
-- [Random Words on Entropy and DNS](https://www.splunk.com/blog/2015/10/01/random-words-on-entropy-and-dns.html)
-- [Tracking Newly Registered Domains](https://isc.sans.edu/diary/Tracking+Newly+Registered+Domains/23127)
-- [Suspicious Domains Tracking Dashboard](https://isc.sans.edu/forums/diary/Suspicious+Domains+Tracking+Dashboard/23046/)
-- [Proactive Malicious Domain Search](https://isc.sans.edu/forums/diary/Proactive+Malicious+Domain+Search/23065/)
-- [DNS is NOT Boring](https://www.first.org/resources/papers/conf2017/DNS-is-NOT-Boring-Using-DNS-to-Expose-and-Thwart-Attacks.pdf) - Using DNS to Expose and Thwart Attacks
-- [Actionable Detects](https://prezi.com/vejpnxkm85ih/actionable-detects-dns-keynote/) - Blue Team Tactics
-
-### Command and Control
-
-- [Rise of Legitimate Services for Backdoor Command and Control](docs/legit-services.pdf)
-- [Watch Your Containers](https://www.intezer.com/container-security/watch-your-containers-doki-infecting-docker-servers-in-the-cloud/) - A malware using DogeCoin based DGA to generate C2 domain names.
-
-#### DoH
-- [Hiding in Plain Sight](https://blog.huntresslabs.com/hiding-in-plain-sight-part-2-dfec817c036f) - A malware abusing Google DoH
-- [All the DoH](https://twitter.com/stvemillertime/status/1196788709292687360) - A Twitter thread on malware families and utilities that use DNS-over-HTTPS.
-
-
-
-### Osquery
-
-- [osquery Across the Enterprise](https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55)
-- [osquery for Security — Part 1](https://medium.com/@clong/osquery-for-security-b66fffdf2daf)
-- [osquery for Security — Part 2](https://medium.com/@clong/osquery-for-security-part-2-2e03de4d3721) - Advanced osquery functionality, File integrity monitoring, process auditing, and more.
-- [Tracking a stolen code-signing certificate with osquery](https://blog.trailofbits.com/2017/10/10/tracking-a-stolen-code-signing-certificate-with-osquery/)
-- [Monitoring macOS hosts with osquery](https://blog.kolide.com/monitoring-macos-hosts-with-osquery-ba5dcc83122d)
-- [Kolide's Blog](https://blog.kolide.com/)
-- [The osquery Extensions Skunkworks Project](https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions)
-
 ### Windows
 
 - [Threat Hunting via Windows Event Logs](docs/Threat%20Hunting%20via%20Windows%20Event%20Logs%20Secwest%202019.pdf)
@@ -262,6 +242,28 @@ and achieve your cybersecurity goals.
 ### MacOS
 
 - [A Guide to macOS Threat Hunting and Incident Response](docs/SentinalOne_macOS_Threat_Hunting_and_Incident_Response_A_Complete_Guide_17032020-1.pdf)
+
+### Osquery
+
+- [osquery Across the Enterprise](https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55)
+- [osquery for Security — Part 1](https://medium.com/@clong/osquery-for-security-b66fffdf2daf)
+- [osquery for Security — Part 2](https://medium.com/@clong/osquery-for-security-part-2-2e03de4d3721) - Advanced osquery functionality, File integrity monitoring, process auditing, and more.
+- [Tracking a stolen code-signing certificate with osquery](https://blog.trailofbits.com/2017/10/10/tracking-a-stolen-code-signing-certificate-with-osquery/)
+- [Monitoring macOS hosts with osquery](https://blog.kolide.com/monitoring-macos-hosts-with-osquery-ba5dcc83122d)
+- [Kolide's Blog](https://blog.kolide.com/)
+- [The osquery Extensions Skunkworks Project](https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions)
+
+### DNS
+
+- [Detecting DNS Tunneling](https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152)
+- [Hunting the Known Unknowns (with DNS)](https://www.splunk.com/pdfs/events/govsummit/hunting_the_known_unknowns_with_DNS.pdf)
+- [Detecting dynamic DNS domains in Splunk](https://www.splunk.com/blog/2015/08/04/detecting-dynamic-dns-domains-in-splunk.html)
+- [Random Words on Entropy and DNS](https://www.splunk.com/blog/2015/10/01/random-words-on-entropy-and-dns.html)
+- [Tracking Newly Registered Domains](https://isc.sans.edu/diary/Tracking+Newly+Registered+Domains/23127)
+- [Suspicious Domains Tracking Dashboard](https://isc.sans.edu/forums/diary/Suspicious+Domains+Tracking+Dashboard/23046/)
+- [Proactive Malicious Domain Search](https://isc.sans.edu/forums/diary/Proactive+Malicious+Domain+Search/23065/)
+- [DNS is NOT Boring](https://www.first.org/resources/papers/conf2017/DNS-is-NOT-Boring-Using-DNS-to-Expose-and-Thwart-Attacks.pdf) - Using DNS to Expose and Thwart Attacks
+- [Actionable Detects](https://prezi.com/vejpnxkm85ih/actionable-detects-dns-keynote/) - Blue Team Tactics
 
 ### Fingerprinting
 
