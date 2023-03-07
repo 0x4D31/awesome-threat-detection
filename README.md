@@ -154,6 +154,7 @@
 - [PCAP-ATTACK](https://github.com/sbousseaden/PCAP-ATTACK) - A repo of PCAP samples for different ATT&CK techniques.
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) - A repo of Windows event samples (EVTX) associated with ATT&CK techniques ([EVTX-ATT&CK Sheet](https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082)).
 - [Public Security Log Sharing Site](http://log-sharing.dreamhosters.com)
+- [attack_data](https://github.com/splunk/attack_data) - A repository of curated datasets from various attacks.
 
 
 ## Resources
