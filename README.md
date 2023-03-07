@@ -146,6 +146,7 @@
 - [Netresec's PCAP repo list](https://www.netresec.com/?page=PcapFiles) - A list of public packet capture repositories, which are freely available on the Internet.
 - [PCAP-ATTACK](https://github.com/sbousseaden/PCAP-ATTACK) - A repo of PCAP samples for different ATT&CK techniques.
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) - A repo of Windows event samples (EVTX) associated with ATT&CK techniques ([EVTX-ATT&CK Sheet](https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082)).
+- [Public Security Log Sharing Site](http://log-sharing.dreamhosters.com)
 
 
 ## Resources
