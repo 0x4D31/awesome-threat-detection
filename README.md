@@ -422,6 +422,7 @@
 - [Signal the ATT&CK: Part 1](https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html) - Modelling APT32 in CALDERA 
 - [Red Teaming/Adversary Simulation Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) - A collection of open source and commercial tools that aid in red team operations.
 - [C2 Matrix](https://www.thec2matrix.com/matrix) ([Google Sheets](https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc))
+- [adversary_emulation_library](https://github.com/center-for-threat-informed-defense/adversary_emulation_library) - An open library of adversary emulation plans designed to empower organizations to test their defenses based on real-world TTPs.
 
 ## Contribute
 
