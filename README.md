@@ -300,11 +300,16 @@
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
 
-### Other Awesome Resources
+### Related Awesome Lists
 
-- [Awesome Kubernetes threat detection](https://github.com/jatrost/awesome-kubernetes-threat-detection)
-- [Awesome incident response](https://github.com/meirwah/awesome-incident-response)
-- 
+- [Awesome Kubernetes Threat Detection](https://github.com/jatrost/awesome-kubernetes-threat-detection)
+- [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
+- [Awesome Forensics](https://github.com/cugu/awesome-forensics)
+- [Awesome Honeypots](https://github.com/paralax/awesome-honeypots)
+- [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [Awesome YARA](https://github.com/InQuest/awesome-yara)
+- [Awesome Security](https://github.com/sbilly/awesome-security)
+- [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security)
 
 ## Podcasts
 
