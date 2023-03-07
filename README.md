@@ -66,6 +66,7 @@
 - [LogSlash](https://github.com/FoxIO-LLC/LogSlash): A standard for reducing log volume without sacrificing analytical capability.
 - [SOC-Multitool](https://github.com/zdhenard42/SOC-Multitool): A powerful and user-friendly browser extension that streamlines investigations for security professionals.
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
+- [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 
 ### Detection, Alerting and Automation Platforms
 
@@ -83,6 +84,7 @@
 - [Sysdig](https://github.com/draios/sysdig) - A tool for deep Linux system visibility, with native support for containers. Think about sysdig as strace + tcpdump + htop + iftop + lsof + ...awesome sauce
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the Linux auditd daemon
 - [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - A Windows system service and device driver that monitors and logs system activity to the Windows event log
+- [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
  
