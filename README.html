@@ -38,8 +38,8 @@
 <li>👩‍🎓 <a href="#trainings">Trainings</a></li>
 <li>👩‍💻 <a href="#labs">Labs</a></li>
 <li>🤖 <a href="#twitter">Twitter</a></li></ul>
-<li>Threat Simulation</li>
-<ul><li>🪓 <a href="#threat-simulation-tools">Tools</a></li>
+<li>Threat Simulation</li><ul>
+<li>🪓 <a href="#threat-simulation-tools">Tools</a></li>
 <li>📕 <a href="#threat-simulation-resources">Resources</a></li></ul>
 <li><a href="#contribute">Contribute</a></li>
 <li><a href="#license">License</a></li>
@@ -48,11 +48,7 @@
 <ul>
 <li><a href="https://mitre.github.io/attack-navigator/enterprise/">MITRE ATT&CK Navigator</a> (<a href="https://github.com/mitre-attack/attack-navigator">source code</a>) - The ATT&amp;CK Navigator is designed to provide basic navigation and annotation of ATT&amp;CK matrices, something that people are already doing today in tools like Excel.</li>
 <li><a href="https://github.com/Cyb3rWard0g/HELK">HELK</a> - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.</li>
-<li><a href="https://github.com/palantir/osquery-configuration">osquery-configuration</a> - A repository for using osquery for incident detection and response.</li>
 <li><a href="https://github.com/clong/DetectionLab/">DetectionLab</a> - Vagrant &amp; Packer scripts to build a lab environment complete with security tooling and logging best practices.</li>
-<li><a href="https://github.com/MHaggis/sysmon-dfir">Sysmon-DFIR</a> - Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.</li>
-<li><a href="https://github.com/SwiftOnSecurity/sysmon-config">sysmon-config</a> - Sysmon configuration file template with default high-quality event tracing.</li>
-<li><a href="https://github.com/olafhartong/sysmon-modular">sysmon-modular</a> - A repository of sysmon configuration modules. It also includes a <a href="https://github.com/olafhartong/sysmon-modular/blob/master/attack_matrix/README.md">mapping</a> of Sysmon configurations to MITRE ATT&amp;CK techniques.</li>
 <li><a href="https://github.com/danielbohannon/Revoke-Obfuscation">Revoke-Obfuscation</a> - PowerShell Obfuscation Detection Framework.</li>
 <li><a href="https://github.com/Cyb3rWard0g/Invoke-ATTACKAPI">Invoke-ATTACKAPI</a> - A PowerShell script to interact with the MITRE ATT&amp;CK Framework via its own API.</li>
 <li><a href="https://github.com/unfetter-analytic/unfetter">Unfetter</a> - A reference implementation provides a framework for collecting events (process creation, network connections, Window Event Logs, etc.) from a client machine and performing CAR analytics to detect potential adversary activity.</li>
@@ -86,6 +82,7 @@
 <li><a href="https://github.com/zdhenard42/SOC-Multitool">SOC-Multitool</a>: A powerful and user-friendly browser extension that streamlines investigations for security professionals.</li>
 <li><a href="https://github.com/SuperCowPowers/zat">Zeek Analysis Tools (ZAT)</a>: Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.</li>
 <li><a href="https://github.com/Sysinternals/ProcMon-for-Linux">ProcMon for Linux</a></li>
+<li><a href="https://github.com/splunk/salo">Synthetic Adversarial Log Objects (SALO)</a> - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.</li>
 </ul>
 <h3 id="detection-alerting-and-automation-platforms">Detection, Alerting and Automation Platforms</h3>
 <ul>
@@ -106,6 +103,14 @@
 <li><a href="https://github.com/Sysinternals/SysmonForLinux">Sysmon for Linux</a></li>
 <li><a href="https://github.com/ossec/ossec-hids">OSSEC</a> - An open-source Host-based Intrusion Detection System (HIDS)</li>
 <li><a href="https://github.com/wazuh/wazuh">WAZUH</a> - An open-source security platform</li>
+</ul>
+<h4 id="configuration">Configuration</h4>
+<ul>
+<li><a href="https://github.com/MHaggis/sysmon-dfir">sysmon-DFIR</a> - Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.</li>
+<li><a href="https://github.com/SwiftOnSecurity/sysmon-config">sysmon-config</a> - Sysmon configuration file template with default high-quality event tracing.</li>
+<li><a href="https://github.com/olafhartong/sysmon-modular">sysmon-modular</a> - A repository of sysmon configuration modules. It also includes a <a href="https://github.com/olafhartong/sysmon-modular/blob/master/attack_matrix/README.md">mapping</a> of Sysmon configurations to MITRE ATT&amp;CK techniques.</li>
+<li><a href="https://github.com/Neo23x0/auditd">auditd configuration</a></li>
+<li><a href="https://github.com/palantir/osquery-configuration">osquery-configuration</a> - A repository for using osquery for incident detection and response.</li>
 </ul>
 <h3 id="network-monitoring">Network Monitoring</h3>
 <ul>
@@ -138,6 +143,8 @@
 <li><a href="https://github.com/elastic/detection-rules">Elastic Detection Rules</a></li>
 <li><a href="https://car.mitre.org/">MITRE CAR</a> - The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE based on the Adversary Tactics, Techniques, and Common Knowledge (ATT&amp;CK™) adversary model.</li>
 <li><a href="https://github.com/InQuest/awesome-yara#rules">Awesome YARA Rules</a></li>
+<li><a href="https://github.com/chronicle/detection-rules">Chronicle Detection Rules</a> - Collection of YARA-L 2.0 sample rules for the Chronicle Detection API.</li>
+<li><a href="https://github.com/GoogleCloudPlatform/security-analytics">GCP Security Analytics</a> - Community Security Analytics provides a set of community-driven audit &amp; threat queries for Google Cloud.</li>
 </ul>
 <h2 id="dataset">Dataset</h2>
 <ul>
@@ -152,6 +159,8 @@
 <li><a href="https://www.netresec.com/?page=PcapFiles">Netresec's PCAP repo list</a> - A list of public packet capture repositories, which are freely available on the Internet.</li>
 <li><a href="https://github.com/sbousseaden/PCAP-ATTACK">PCAP-ATTACK</a> - A repo of PCAP samples for different ATT&amp;CK techniques.</li>
 <li><a href="https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES">EVTX-ATTACK-SAMPLES</a> - A repo of Windows event samples (EVTX) associated with ATT&amp;CK techniques (<a href="https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082">EVTX-ATT&CK Sheet</a>).</li>
+<li><a href="http://log-sharing.dreamhosters.com">Public Security Log Sharing Site</a></li>
+<li><a href="https://github.com/splunk/attack_data">attack_data</a> - A repository of curated datasets from various attacks.</li>
 </ul>
 <h2 id="resources">Resources</h2>
 <ul>
@@ -207,11 +216,9 @@
 <li><a href="https://www.lockheedmartin.com/us/what-we-do/aerospace-defense/cyber/cyber-kill-chain.html">Cyber Kill Chain</a> - It is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective.</li>
 <li><a href="http://ryanstillions.blogspot.com.au/2014/04/the-dml-model_21.html">The DML Model</a> - The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.</li>
 <li><a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework</a></li>
-<li><a href="https://github.com/hunters-forge/OSSEM">OSSEM</a> (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems</li>
-<li><a href="https://engage.mitre.org/">MITRE Engage</a> - A framework<br />
-for planning and discussing adversary engagement operations<br />
-that empowers you to engage your adversaries<br />
-and achieve your cybersecurity goals.</li>
+<li><a href="https://github.com/hunters-forge/OSSEM">OSSEM</a> (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems.</li>
+<li><a href="https://github.com/ocsf/ocsf-schema">Open Cybersecurity Schema Framework (OCSF)</a> -  A framework for creating schemas and it also delivers a cybersecurity event schema built with the framework (<a href="https://schema.ocsf.io/">schema browser</a>).</li>
+<li><a href="https://engage.mitre.org/">MITRE Engage</a> - A framework for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals.</li>
 <li><a href="https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf">MaGMa Use Case Defintion Model</a> - A business-centric approach for planning and defining threat detection use cases.</li>
 </ul>
 <h3 id="windows">Windows</h3>
@@ -386,6 +393,7 @@ and achieve your cybersecurity goals.</li>
 <li><a href="https://bots.splunk.com/">Splunk Boss of the SOC</a> - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.</li>
 <li><a href="https://github.com/Cyb3rWard0g/HELK">HELK</a> - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.</li>
 <li><a href="https://github.com/op7ic/BlueTeam.Lab">BlueTeam Lab</a> - A detection lab created with Terraform and Ansible in Azure.</li>
+<li><a href="https://github.com/splunk/attack_range">attack_range</a> - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.</li>
 </ul>
 <h2 id="twitter">Twitter</h2>
 <ul>
@@ -420,6 +428,7 @@ and achieve your cybersecurity goals.</li>
 <li><a href="https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html">Signal the ATT&CK: Part 1</a> - Modelling APT32 in CALDERA</li>
 <li><a href="https://github.com/infosecn1nja/Red-Teaming-Toolkit">Red Teaming/Adversary Simulation Toolkit</a> - A collection of open source and commercial tools that aid in red team operations.</li>
 <li><a href="https://www.thec2matrix.com/matrix">C2 Matrix</a> (<a href="https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc">Google Sheets</a>)</li>
+<li><a href="https://github.com/center-for-threat-informed-defense/adversary_emulation_library">adversary<em>emulation</em>library</a> - An open library of adversary emulation plans designed to empower organizations to test their defenses based on real-world TTPs.</li>
 </ul>
 <h2 id="contribute">Contribute</h2>
 <p>Contributions welcome! Read the <a href="CONTRIBUTING.md">contribution guidelines</a> first.</p>
