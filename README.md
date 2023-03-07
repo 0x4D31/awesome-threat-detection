@@ -224,7 +224,7 @@
 
 ### Windows
 
-- [Threat Hunting via Windows Event Logs](docs/Threat Hunting via Windows Event Logs Secwest 2019.pdf)
+- [Threat Hunting via Windows Event Logs](docs/Threat%20Hunting%20via%20Windows%20Event%20Logs%20Secwest%202019.pdf)
 - [Windows Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets/)
 - [Active Directory Threat Hunting](https://adsecurity.org/wp-content/uploads/2017/04/2017-BSidesCharm-DetectingtheElusive-ActiveDirectoryThreatHunting-Final.pdf)
 - [Windows Hunting](https://github.com/beahunt3r/Windows-Hunting) - A collection of Windows hunting queries
