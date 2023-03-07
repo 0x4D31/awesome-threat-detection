@@ -1,0 +1,654 @@
+
+      <html>
+        <head>
+          <title>Awesome Threat Detection and Hunting</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta charset="UTF-8">
+        </head>
+        <body>
+          <div id='content'>
+      <h1 id="awesome-threat-detection-and-hunting">Awesome Threat Detection and Hunting</h1>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a></p>
+<blockquote>
+  <p>A curated list of awesome threat detection and hunting resources</p>
+</blockquote>
+<h2 id="contents">Contents</h2>
+<ul>
+<li>Threat Detection and Hunting</li><ul>
+<li>🔨 <a href="#tools">Tools</a><ul>
+<li><a href="#detection-alerting-and-automation-platforms">Detection, Alerting and Automation Platforms</a></li>
+<li><a href="#endpoint-monitoring">Endpoint Monitoring</a></li>
+<li><a href="#network-monitoring">Network Monitoring</a></li></ul></li>
+<li>🔍 <a href="#detection-rules">Detection Rules</a></li>
+<li>📑 <a href="#dataset">Dataset</a></li>
+<li>📘 <a href="#resources">Resources</a><ul>
+<li><a href="#frameworks">Frameworks</a></li>
+<li><a href="#windows">Windows</a></li>
+<li><a href="#macos">MacOS</a></li>
+<li><a href="#osquery">Osquery</a></li>
+<li><a href="#dns">DNS</a></li>
+<li><a href="#fingerprinting">Fingerprinting</a></li>
+<li><a href="#data-science">Data Science</a></li>
+<li><a href="research-papers">Research Papers</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#related-awesome-lists">Related Awesome Lists</a></li></ul></li>
+<li>🎙️ <a href="#podcasts">Podcasts</a></li>
+<li>🗞️ <a href="#newsletters">Newsletters</a></li>
+<li>🎥 <a href="#videos">Videos</a></li>
+<li>👩‍🎓 <a href="#trainings">Trainings</a></li>
+<li>👩‍💻 <a href="#labs">Labs</a></li>
+<li>🤖 <a href="#twitter">Twitter</a></li></ul>
+<li>Threat Simulation</li>
+<ul><li>🪓 <a href="#threat-simulation-tools">Tools</a></li>
+<li>📕 <a href="#threat-simulation-resources">Resources</a></li></ul>
+<li><a href="#contribute">Contribute</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://mitre.github.io/attack-navigator/enterprise/">MITRE ATT&CK Navigator</a> (<a href="https://github.com/mitre-attack/attack-navigator">source code</a>) - The ATT&amp;CK Navigator is designed to provide basic navigation and annotation of ATT&amp;CK matrices, something that people are already doing today in tools like Excel.</li>
+<li><a href="https://github.com/Cyb3rWard0g/HELK">HELK</a> - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.</li>
+<li><a href="https://github.com/palantir/osquery-configuration">osquery-configuration</a> - A repository for using osquery for incident detection and response.</li>
+<li><a href="https://github.com/clong/DetectionLab/">DetectionLab</a> - Vagrant &amp; Packer scripts to build a lab environment complete with security tooling and logging best practices.</li>
+<li><a href="https://github.com/MHaggis/sysmon-dfir">Sysmon-DFIR</a> - Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.</li>
+<li><a href="https://github.com/SwiftOnSecurity/sysmon-config">sysmon-config</a> - Sysmon configuration file template with default high-quality event tracing.</li>
+<li><a href="https://github.com/olafhartong/sysmon-modular">sysmon-modular</a> - A repository of sysmon configuration modules. It also includes a <a href="https://github.com/olafhartong/sysmon-modular/blob/master/attack_matrix/README.md">mapping</a> of Sysmon configurations to MITRE ATT&amp;CK techniques.</li>
+<li><a href="https://github.com/danielbohannon/Revoke-Obfuscation">Revoke-Obfuscation</a> - PowerShell Obfuscation Detection Framework.</li>
+<li><a href="https://github.com/Cyb3rWard0g/Invoke-ATTACKAPI">Invoke-ATTACKAPI</a> - A PowerShell script to interact with the MITRE ATT&amp;CK Framework via its own API.</li>
+<li><a href="https://github.com/unfetter-analytic/unfetter">Unfetter</a> - A reference implementation provides a framework for collecting events (process creation, network connections, Window Event Logs, etc.) from a client machine and performing CAR analytics to detect potential adversary activity.</li>
+<li><a href="https://github.com/austin-taylor/flare">Flare</a> - An analytical framework for network traffic and behavioral analytics.</li>
+<li><a href="https://github.com/redhuntlabs/RedHunt-OS">RedHunt-OS</a> - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.</li>
+<li><a href="https://github.com/mvelazc0/Oriana">Oriana</a> - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.</li>
+<li><a href="https://github.com/bro/bro-osquery">Bro-Osquery</a> - Bro integration with osquery</li>
+<li><a href="https://github.com/jandre/brosquery">Brosquery</a> - A module for osquery to load Bro logs into tables</li>
+<li><a href="https://github.com/sans-blue-team/DeepBlueCLI">DeepBlueCLI</a> - A PowerShell Module for Hunt Teaming via Windows Event Logs</li>
+<li><a href="https://uncoder.io">Uncoder</a> - An online translator for SIEM saved searches, filters, queries, API requests, correlation and Sigma rules</li>
+<li><a href="https://github.com/PowerShellMafia/CimSweep">CimSweep</a> - A suite of CIM/WMI-based tools that enable the ability to perform incident response and hunting operations remotely across all versions of Windows</li>
+<li><a href="https://github.com/Netflix/dispatch">Dispatch</a> - An open-source crisis management orchestration framework</li>
+<li><a href="https://github.com/endgameinc/eql">EQL</a> - Event Query Language</li>
+<li><a href="https://github.com/endgameinc/eqllib">EQLLib</a> - The Event Query Language Analytics Library (eqllib) is a library of event based analytics, written in EQL to detect adversary behaviors identified in MITRE ATT&amp;CK™.</li>
+<li><a href="https://github.com/mitre-attack/bzar">BZAR</a> (Bro/Zeek ATT&amp;CK-based Analytics and Reporting) - A set of Zeek scripts to detect ATT&amp;CK techniques</li>
+<li><a href="https://github.com/Security-Onion-Solutions/security-onion">Security Onion</a> - An open-source Linux distribution for threat hunting, security monitoring, and log management. It includes ELK, Snort, Suricata, Zeek, Wazuh, Sguil, and many other security tools</li>
+<li><a href="https://github.com/endgameinc/varna">Varna</a> - A quick &amp; cheap AWS CloudTrail Monitoring with Event Query Language (EQL)</li>
+<li><a href="https://github.com/airbnb/binaryalert">BinaryAlert</a> - Serverless, real-time &amp; retroactive malware detection</li>
+<li><a href="https://github.com/hasherezade/hollows_hunter">hollows_hunter</a> - Scans all running processes, recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).</li>
+<li><a href="https://github.com/olafhartong/ThreatHunting">ThreatHunting</a> - A Splunk app mapped to MITRE ATT&amp;CK to guide your threat hunts</li>
+<li><a href="https://github.com/BlueTeamLabs/sentinel-attack">Sentinel Attack</a> - A repository of Azure Sentinel alerts and hunting queries leveraging sysmon and the MITRE ATT&amp;CK framework</li>
+<li><a href="https://github.com/brimsec/brim">Brim</a> - A desktop application to efficiently search large packet captures and Zeek logs</li>
+<li><a href="https://github.com/virustotal/yara">YARA</a> - The pattern matching swiss knife</li>
+<li><a href="https://github.com/intelowlproject/IntelOwl">Intel Owl</a> - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.</li>
+<li><a href="https://github.com/fireeye/capa">Capa</a> - An open-source tool to identify capabilities in executable files.</li>
+<li><a href="https://github.com/splunk/security_content">Splunk Security Content</a> Splunk-curated detection content that can easily be used accross many SIEMs (see Uncoder Rule Converter.)</li>
+<li><a href="https://github.com/tenzir/threatbus">Threat Bus</a> - Threat intelligence dissemination layer to connect security tools through a distributed publish/subscribe message broker.</li>
+<li><a href="https://github.com/tenzir/vast">VAST</a> - A network telemetry engine for data-driven security investigations.</li>
+<li><a href="https://github.com/corelight/zeek2es">zeek2es</a> - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!</li>
+<li><a href="https://github.com/FoxIO-LLC/LogSlash">LogSlash</a>: A standard for reducing log volume without sacrificing analytical capability.</li>
+<li><a href="https://github.com/zdhenard42/SOC-Multitool">SOC-Multitool</a>: A powerful and user-friendly browser extension that streamlines investigations for security professionals.</li>
+<li><a href="https://github.com/SuperCowPowers/zat">Zeek Analysis Tools (ZAT)</a>: Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.</li>
+<li><a href="https://github.com/Sysinternals/ProcMon-for-Linux">ProcMon for Linux</a></li>
+</ul>
+<h3 id="detection-alerting-and-automation-platforms">Detection, Alerting and Automation Platforms</h3>
+<ul>
+<li><a href="https://github.com/Yelp/elastalert">ElastAlert</a> - A framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch</li>
+<li><a href="https://github.com/airbnb/streamalert">StreamAlert</a> - A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define</li>
+<li><a href="https://github.com/matanolabs/matano">Matano</a>: An open source security lake platform (SIEM alternative) for threat hunting, detection and response on AWS. Matano lets you write advanced detections as code (using python) to correlate and alert on threats in realtime.</li>
+<li><a href="https://github.com/Shuffle/Shuffle">Shuffle</a>: A general purpose security automation platform.</li>
+</ul>
+<h3 id="endpoint-monitoring">Endpoint Monitoring</h3>
+<ul>
+<li><a href="https://osquery.io">osquery</a> (<a href="https://github.com/osquery/osquery">github</a>) - SQL powered operating system instrumentation, monitoring, and analytics</li>
+<li><a href="https://github.com/kolide/fleet">Kolide Fleet</a> - A flexible control server for osquery fleets</li>
+<li><a href="https://github.com/zeek/zeek-agent">Zeek Agent</a> - An endpoint monitoring agent that provides host activity to Zeek</li>
+<li><a href="https://github.com/Velocidex/velociraptor">Velociraptor</a> - Endpoint visibility and collection tool</li>
+<li><a href="https://github.com/draios/sysdig">Sysdig</a> - A tool for deep Linux system visibility, with native support for containers. Think about sysdig as strace + tcpdump + htop + iftop + lsof + …awesome sauce</li>
+<li><a href="https://github.com/slackhq/go-audit">go-audit</a> - An alternative to the Linux auditd daemon</li>
+<li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon">Sysmon</a> - A Windows system service and device driver that monitors and logs system activity to the Windows event log</li>
+<li><a href="https://github.com/Sysinternals/SysmonForLinux">Sysmon for Linux</a></li>
+<li><a href="https://github.com/ossec/ossec-hids">OSSEC</a> - An open-source Host-based Intrusion Detection System (HIDS)</li>
+<li><a href="https://github.com/wazuh/wazuh">WAZUH</a> - An open-source security platform</li>
+</ul>
+<h3 id="network-monitoring">Network Monitoring</h3>
+<ul>
+<li><a href="https://github.com/zeek/zeek">Zeek</a> (formerly Bro) - A network security monitoring tool</li>
+<li><a href="https://github.com/ntop/ntopng">ntopng</a> - A web-based network traffic monitoring tool</li>
+<li><a href="https://suricata-ids.org">Suricata</a> - A network threat detection engine</li>
+<li><a href="https://snort.org">Snort</a> (<a href="https://github.com/snort3/snort3">github</a>) - A network intrusion detection tool</li>
+<li><a href="https://github.com/cisco/joy">Joy</a> - A package for capturing and analyzing network flow data and intraflow data, for network research, forensics, and security monitoring</li>
+<li><a href="https://github.com/dreadl0ck/netcap">Netcap</a> - A framework for secure and scalable network traffic analysis</li>
+<li><a href="https://github.com/aol/moloch">Moloch</a> - A large scale and open source full packet capture and search tool</li>
+<li><a href="https://github.com/google/stenographer">Stenographer</a> - A full-packet-capture tool</li>
+</ul>
+<h4 id="fingerprinting-tools">Fingerprinting Tools</h4>
+<ul>
+<li><a href="https://github.com/salesforce/ja3">JA3</a> - A method for profiling SSL/TLS Clients and Servers</li>
+<li><a href="https://github.com/salesforce/hassh">HASSH</a> - Profiling Method for SSH Clients and Servers</li>
+<li><a href="https://github.com/yahoo/rdfp">RDFP</a> - Zeek Remote desktop fingerprinting script based on <a href="https://github.com/0x4D31/fatt">FATT</a> (Fingerprint All The Things)</li>
+<li><a href="https://github.com/0x4D31/fatt">FATT</a> - A pyshark based script for extracting network metadata and fingerprints from pcap files and live network traffic</li>
+<li><a href="https://github.com/LeeBrotherston/tls-fingerprinting">FingerprinTLS</a> - A TLS fingerprinting method</li>
+<li><a href="https://github.com/cisco/mercury">Mercury</a> - Network fingerprinting and packet metadata capture</li>
+<li><a href="https://github.com/salesforce/GQUIC_Protocol_Analyzer">GQUIC Protocol Analyzer for Zeek</a></li>
+<li><a href="https://github.com/rapid7/recog">Recog</a> - A framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes</li>
+<li><a href="https://github.com/CERT-Polska/hfinger">Hfinger</a> - Fingerprinting HTTP requests</li>
+<li><a href="https://github.com/salesforce/jarm">JARM</a> - An active Transport Layer Security (TLS) server fingerprinting tool.</li>
+</ul>
+<h2 id="detection-rules">Detection Rules</h2>
+<ul>
+<li><a href="https://github.com/SigmaHQ/sigma">Sigma</a> - Generic Signature Format for SIEM Systems</li>
+<li><a href="https://research.splunk.com/detections/">Splunk Detections</a> and <a href="https://research.splunk.com/stories/">Analytic stories</a></li>
+<li><a href="https://github.com/elastic/detection-rules">Elastic Detection Rules</a></li>
+<li><a href="https://car.mitre.org/">MITRE CAR</a> - The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE based on the Adversary Tactics, Techniques, and Common Knowledge (ATT&amp;CK™) adversary model.</li>
+<li><a href="https://github.com/InQuest/awesome-yara#rules">Awesome YARA Rules</a></li>
+</ul>
+<h2 id="dataset">Dataset</h2>
+<ul>
+<li><a href="https://github.com/Cyb3rWard0g/mordor">Mordor</a> - Pre-recorded security events generated by simulated adversarial techniques in the form of JavaScript Object Notation (JSON) files. The data is categorized by platforms, adversary groups, tactics and techniques defined by the Mitre ATT&amp;CK Framework.</li>
+<li><a href="https://www.secrepo.com">SecRepo.com</a>(<a href="https://github.com/sooshie/secrepo">github repo</a>) - Samples of security related data.</li>
+<li><a href="https://github.com/splunk/botsv1">Boss of the SOC (BOTS) Dataset Version 1</a></li>
+<li><a href="https://github.com/splunk/botsv2">Boss of the SOC (BOTS) Dataset Version 2</a></li>
+<li><a href="https://github.com/splunk/botsv3">Boss of the SOC (BOTS) Dataset Version 3</a></li>
+<li><a href="https://github.com/endgameinc/ember">EMBER</a> (<a href="https://arxiv.org/abs/1804.04637">paper</a>) - The EMBER dataset is a collection of features from PE files that serve as a benchmark dataset for researchers</li>
+<li><a href="https://github.com/ytisf/theZoo">theZoo</a> - A repository of LIVE malwares</li>
+<li><a href="https://www.unb.ca/cic/datasets/index.html">CIC Datasets</a> - Canadian Institute for Cybersecurity datasets</li>
+<li><a href="https://www.netresec.com/?page=PcapFiles">Netresec's PCAP repo list</a> - A list of public packet capture repositories, which are freely available on the Internet.</li>
+<li><a href="https://github.com/sbousseaden/PCAP-ATTACK">PCAP-ATTACK</a> - A repo of PCAP samples for different ATT&amp;CK techniques.</li>
+<li><a href="https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES">EVTX-ATTACK-SAMPLES</a> - A repo of Windows event samples (EVTX) associated with ATT&amp;CK techniques (<a href="https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082">EVTX-ATT&CK Sheet</a>).</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="docs/huntpedia.pdf">Huntpedia</a> - Your Threat Hunting Knowledge Compendium</li>
+<li><a href="docs/hunt-evil.pdf">Hunt Evil</a> - Your Practical Guide to Threat Hunting</li>
+<li><a href="docs/The-Hunters-Handbook.pdf">The Hunter's Handbook</a> - Endgame's guide to adversary hunting</li>
+<li><a href="https://github.com/Cyb3rWard0g/ThreatHunter-Playbook">ThreatHunter-Playbook</a> - A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.</li>
+<li><a href="https://github.com/ThreatHuntingProject/ThreatHunting">The ThreatHunting Project</a> - A great <a href="https://github.com/ThreatHuntingProject/ThreatHunting/tree/master/hunts">collection of hunts</a> and threat hunting resources.</li>
+<li><a href="https://github.com/A3sal0n/CyberThreatHunting">CyberThreatHunting</a> - A collection of resources for threat hunters.</li>
+<li><a href="https://github.com/MHaggis/hunt-detect-prevent">Hunt-Detect-Prevent</a> - Lists of sources and utilities to hunt, detect and prevent evildoers.</li>
+<li><a href="https://medium.com/@palantir/alerting-and-detection-strategy-framework-52dc33722df2">Alerting and Detection Strategy Framework</a></li>
+<li><a href="https://www.sans.org/reading-room/whitepapers/threats/generating-hypotheses-successful-threat-hunting-37172">Generating Hypotheses for Successful Threat Hunting</a></li>
+<li><a href="https://github.com/Foundstone/ExpertInvestigationGuides/tree/master/ThreatHunting">Expert Investigation Guide - Threat Hunting</a></li>
+<li><a href="https://adsecurity.org/wp-content/uploads/2017/04/2017-BSidesCharm-DetectingtheElusive-ActiveDirectoryThreatHunting-Final.pdf">Active Directory Threat Hunting</a></li>
+<li><a href="https://www.countercept.com/our-thinking/threat-hunting-for-fileless-malware/">Threat Hunting for Fileless Malware</a></li>
+<li><a href="http://blog.jpcert.or.jp/.s/2016/01/windows-commands-abused-by-attackers.html">Windows Commands Abused by Attackers</a></li>
+<li><a href="https://github.com/0x4D31/deception-as-detection">Deception-as-Detection</a> - Deception based detection techniques mapped to the MITRE’s ATT&amp;CK framework.</li>
+<li><a href="http://ryanstillions.blogspot.com.au/2014/04/on-ttps.html">On TTPs</a></li>
+<li>Hunting On The Cheap (<a href="https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1492182404.pdf">Slides</a>)</li>
+<li><a href="https://www.cyberhuntz.com/2016/08/threat-hunting-techniques-av-proxy-dns.html">Threat Hunting Techniques - AV, Proxy, DNS and HTTP Logs</a></li>
+<li><a href="https://pleasefeedthegeek.wordpress.com/2012/12/20/detecting-malware-beacons-using-splunk/">Detecting Malware Beacons Using Splunk</a></li>
+<li><a href="http://www.austintaylor.io/network/traffic/threat/data/science/hunting/funnel/machine/learning/domain/expertise/2017/07/11/data-science-hunting-funnel/">Data Science Hunting Funnel</a></li>
+<li><a href="http://www.austintaylor.io/d3/python/pandas/2016/02/01/create-d3-chart-python-force-directed/">Use Python & Pandas to Create a D3 Force Directed Network Diagram</a></li>
+<li><a href="https://slack.engineering/syscall-auditing-at-scale-e6a3ca8ac1b8">Syscall Auditing at Scale</a></li>
+<li><a href="https://summitroute.com/blog/2016/12/25/Catching_attackers_with_go-audit_and_a_logging_pipeline/">Catching attackers with go-audit and a logging pipeline</a></li>
+<li><a href="https://summitroute.com/blog/2015/06/10/the_conventry_conundrum_of_threat_intelligence/">The Coventry Conundrum of Threat Intelligence</a></li>
+<li><a href="https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html">Signal the ATT&CK: Part 1</a> - Building a real-time threat detection capability with Tanium that focuses on documented adversarial techniques.</li>
+<li>SANS Summit Archives (<a href="https://www.sans.org/cyber-security-summit/archives/dfir">DFIR</a>, <a href="https://www.sans.org/cyber-security-summit/archives/cyber-defense">Cyber Defense</a>) - Threat hunting, Blue Team and DFIR summit slides</li>
+<li><a href="https://svs.informatik.uni-hamburg.de/publications/2018/2018-05-31-Haas-QueryCon-Bro-Osquery.pdf">Bro-Osquery</a> - Large-Scale Host and Network Monitoring Using Open-Source Software</li>
+<li><a href="https://github.com/Karneades/malware-persistence">Malware Persistence</a> - Collection of various information focused on malware persistence: detection (techniques), response, pitfalls and the log collection (tools).</li>
+<li><a href="https://posts.specterops.io/threat-hunting-with-jupyter-notebooks-part-1-your-first-notebook-9a99a781fde7">Threat Hunting with Jupyter Notebooks</a></li>
+<li><a href="https://dropbox.tech/security/how-dropbox-security-builds-better-tools-for-threat-detection-and-incident-response">How Dropbox Security builds tools for threat detection and incident response</a></li>
+<li><a href="https://www.elastic.co/blog/introducing-event-query-language">Introducing Event Query Language</a></li>
+<li><a href="https://www.varonis.com/blog/guide-no-hassle-eql-threat-hunting/">The No Hassle Guide to Event Query Language (EQL) for Threat Hunting</a> (<a href="docs/varonis.com-EQLforThreatHunting.pdf">PDF</a>)</li>
+<li><a href="https://posts.specterops.io/introducing-the-funnel-of-fidelity-b1bb59b04036">Introducing the Funnel of Fidelity</a> (<a href="docs/specterops-IntroducingtheFunnelofFidelity.pdf">PDF</a>)</li>
+<li><a href="https://posts.specterops.io/detection-spectrum-198a0bfb9302">Detection Spectrum</a> (<a href="docs/specterops-DetectionSpectrum.pdf">PDF</a>)</li>
+<li><a href="https://posts.specterops.io/capability-abstraction-fbeaeeb26384">Capability Abstraction</a> (<a href="docs/specterops-CapabilityAbstraction.pdf">PDF</a>)</li>
+<li><a href="https://github.com/InQuest/awesome-yara">Awesome YARA</a> - A curated list of awesome YARA rules, tools, and resources</li>
+<li><a href="https://medium.com/mitre-attack/defining-attack-data-sources-part-i-4c39e581454f">Defining ATT&CK Data Sources</a> - A two-part blog series that outlines a new methodology to extend ATT&amp;CK’s current data sources.</li>
+<li><a href="https://www.mbsecure.nl/blog/2019/5/dettact-mapping-your-blue-team-to-mitre-attack">DETT&CT: MAPPING YOUR BLUE TEAM TO MITRE ATT&CK™</a> - A blog that describes how to align MITRE ATT&amp;CK-based detection content with data sources.</li>
+<li>Detection as Code in Splunk <a href="https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html">Part 1, </a><a href="https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html">Part 2, </a><a href="https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html">and Part 3</a> - A multipart series describing how detection as code can be successfully deployed in a Splunk environment.</li>
+<li><a href="https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856">Lessons Learned in Detection Engineering</a> - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.</li>
+<li><a href="https://ateixei.medium.com/a-research-driven-process-applied-to-threat-detection-engineering-inputs-1b7e6fe0412b">A Research-Driven process applied to Threat Detection Engineering Inputs</a>.</li>
+</ul>
+<h3 id="frameworks">Frameworks</h3>
+<ul>
+<li><a href="https://attack.mitre.org/wiki/Main_Page">MITRE ATT&CK</a> - A curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target.</li>
+<li><a href="https://github.com/palantir/alerting-detection-strategy-framework">Alerting and Detection Strategies Framework</a> - A framework for developing alerting and detection strategies.</li>
+<li><a href="http://detect-respond.blogspot.com.au/2015/10/a-simple-hunting-maturity-model.html">A Simple Hunting Maturity Model</a> - The Hunting Maturity Model describes five levels of organizational hunting capability, ranging from HMM0 (the least capability) to HMM4 (the most).</li>
+<li><a href="http://detect-respond.blogspot.com.au/2013/03/the-pyramid-of-pain.html">The Pyramic of Pain</a> - The relationship between the types of indicators you might use to detect an adversary's activities and how much pain it will cause them when you are able to deny those indicators to them.</li>
+<li><a href="docs/Framework-for-Threat-Hunting-Whitepaper.pdf">A Framework for Cyber Threat Hunting</a></li>
+<li><a href="http://threathunter.guru/blog/the-paris-model/">The PARIS Model</a> - A model for threat hunting.</li>
+<li><a href="https://www.lockheedmartin.com/us/what-we-do/aerospace-defense/cyber/cyber-kill-chain.html">Cyber Kill Chain</a> - It is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective.</li>
+<li><a href="http://ryanstillions.blogspot.com.au/2014/04/the-dml-model_21.html">The DML Model</a> - The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.</li>
+<li><a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework</a></li>
+<li><a href="https://github.com/hunters-forge/OSSEM">OSSEM</a> (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems</li>
+<li><a href="https://engage.mitre.org/">MITRE Engage</a> - A framework<br />
+for planning and discussing adversary engagement operations<br />
+that empowers you to engage your adversaries<br />
+and achieve your cybersecurity goals.</li>
+<li><a href="https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf">MaGMa Use Case Defintion Model</a> - A business-centric approach for planning and defining threat detection use cases.</li>
+</ul>
+<h3 id="windows">Windows</h3>
+<ul>
+<li><a href="docs/Threat%20Hunting%20via%20Windows%20Event%20Logs%20Secwest%202019.pdf">Threat Hunting via Windows Event Logs</a></li>
+<li><a href="https://www.malwarearchaeology.com/cheat-sheets/">Windows Logging Cheat Sheets</a></li>
+<li><a href="https://adsecurity.org/wp-content/uploads/2017/04/2017-BSidesCharm-DetectingtheElusive-ActiveDirectoryThreatHunting-Final.pdf">Active Directory Threat Hunting</a></li>
+<li><a href="https://github.com/beahunt3r/Windows-Hunting">Windows Hunting</a> - A collection of Windows hunting queries</li>
+<li><a href="https://blogs.jpcert.or.jp/en/2016/01/windows-commands-abused-by-attackers.html">Windows Commands Abused by Attackers</a></li>
+<li><a href="https://blogs.jpcert.or.jp/en/2017/12/research-report-released-detecting-lateral-movement-through-tracking-event-logs-version-2.html">JPCERT - Detecting Lateral Movement through Tracking Event Logs</a><ul>
+<li><a href="https://jpcertcc.github.io/ToolAnalysisResultSheet/">Tool Analysis Result Sheet</a></li></ul></li>
+</ul>
+<h4 id="sysmon">Sysmon</h4>
+<ul>
+<li><a href="https://medium.com/@haggis_m/splunking-the-endpoint-threat-hunting-with-sysmon-9dd956e3e1bd">Splunking the Endpoint: Threat Hunting with Sysmon</a><ul>
+<li><a href="https://medium.com/@haggis_m/hunting-with-sysmon-38de012e62e6">Hunting with Sysmon</a></li></ul></li>
+<li><a href="http://www.syspanda.com/index.php/2017/10/10/threat-hunting-sysmon-word-document-macro/">Threat Hunting with Sysmon: Word Document with Macro</a></li>
+<li>Chronicles of a Threat Hunter: Hunting for In-Memory Mimikatz with Sysmon and ELK<ul>
+<li><a href="https://cyberwardog.blogspot.com.au/2017/03/chronicles-of-threat-hunter-hunting-for.html">Part I (Event ID 7)</a></li>
+<li><a href="https://cyberwardog.blogspot.com.au/2017/03/chronicles-of-threat-hunter-hunting-for_22.html">Part II (Event ID 10)</a></li></ul></li>
+<li>Advanced Incident Detection and Threat Hunting using Sysmon (and Splunk) (<a href="https://www.botconf.eu/wp-content/uploads/2016/11/PR12-Sysmon-UELTSCHI.pdf">botconf 2016 Slides</a>, <a href="https://www.first.org/resources/papers/conf2017/Advanced-Incident-Detection-and-Threat-Hunting-using-Sysmon-and-Splunk.pdf">FIRST 2017 Slides</a>)</li>
+<li><a href="https://www.peerlyst.com/posts/the-sysmon-and-threat-hunting-mimikatz-wiki-for-the-blue-team-guurhart">The Sysmon and Threat Hunting Mimikatz wiki for the blue team</a></li>
+<li><a href="https://www.crypsisgroup.com/wp-content/uploads/2017/07/CG_WhitePaper_Splunkmon_1216-1.pdf">Splunkmon — Taking Sysmon to the Next Level</a></li>
+<li><a href="https://www.varonis.com/blog/sysmon-threat-detection-guide/">Sysmon Threat Detection Guide</a> (<a href="docs/varonis.com-SysmonThreatAnalysisGuide.pdf">PDF</a>)</li>
+</ul>
+<h4 id="powershell">PowerShell</h4>
+<ul>
+<li>Revoke-Obfuscation: PowerShell Obfuscation Detection Using Science (<a href="https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science-wp.pdf">Paper</a>, <a href="https://www.blackhat.com/docs/us-17/thursday/us-17-Bohannon-Revoke-Obfuscation-PowerShell-Obfuscation-Detection-And%20Evasion-Using-Science.pdf">Slides</a>)</li>
+<li><a href="https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf">Hunting the Known Unknowns (With PowerShell)</a></li>
+<li><a href="https://www.splunk.com/blog/2017/07/06/hellsbells-lets-hunt-powershells.html">HellsBells, Let's Hunt PowerShells!</a></li>
+<li><a href="https://medium.com/@jshlbrd/hunting-for-powershell-using-heatmaps-69b70151fa5d">Hunting for PowerShell Using Heatmaps</a></li>
+</ul>
+<h3 id="macos">MacOS</h3>
+<ul>
+<li><a href="docs/SentinalOne_macOS_Threat_Hunting_and_Incident_Response_A_Complete_Guide_17032020-1.pdf">A Guide to macOS Threat Hunting and Incident Response</a></li>
+</ul>
+<h3 id="osquery">Osquery</h3>
+<ul>
+<li><a href="https://medium.com/@palantir/osquery-across-the-enterprise-3c3c9d13ec55">osquery Across the Enterprise</a></li>
+<li><a href="https://medium.com/@clong/osquery-for-security-b66fffdf2daf">osquery for Security — Part 1</a></li>
+<li><a href="https://medium.com/@clong/osquery-for-security-part-2-2e03de4d3721">osquery for Security — Part 2</a> - Advanced osquery functionality, File integrity monitoring, process auditing, and more.</li>
+<li><a href="https://blog.trailofbits.com/2017/10/10/tracking-a-stolen-code-signing-certificate-with-osquery/">Tracking a stolen code-signing certificate with osquery</a></li>
+<li><a href="https://blog.kolide.com/monitoring-macos-hosts-with-osquery-ba5dcc83122d">Monitoring macOS hosts with osquery</a></li>
+<li><a href="https://blog.kolide.com/">Kolide's Blog</a></li>
+<li><a href="https://github.com/trailofbits/presentations/tree/master/Osquery%20Extensions">The osquery Extensions Skunkworks Project</a></li>
+</ul>
+<h3 id="dns">DNS</h3>
+<ul>
+<li><a href="https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152">Detecting DNS Tunneling</a></li>
+<li><a href="https://www.splunk.com/pdfs/events/govsummit/hunting_the_known_unknowns_with_DNS.pdf">Hunting the Known Unknowns (with DNS)</a></li>
+<li><a href="https://www.splunk.com/blog/2015/08/04/detecting-dynamic-dns-domains-in-splunk.html">Detecting dynamic DNS domains in Splunk</a></li>
+<li><a href="https://www.splunk.com/blog/2015/10/01/random-words-on-entropy-and-dns.html">Random Words on Entropy and DNS</a></li>
+<li><a href="https://isc.sans.edu/diary/Tracking+Newly+Registered+Domains/23127">Tracking Newly Registered Domains</a></li>
+<li><a href="https://isc.sans.edu/forums/diary/Suspicious+Domains+Tracking+Dashboard/23046/">Suspicious Domains Tracking Dashboard</a></li>
+<li><a href="https://isc.sans.edu/forums/diary/Proactive+Malicious+Domain+Search/23065/">Proactive Malicious Domain Search</a></li>
+<li><a href="https://www.first.org/resources/papers/conf2017/DNS-is-NOT-Boring-Using-DNS-to-Expose-and-Thwart-Attacks.pdf">DNS is NOT Boring</a> - Using DNS to Expose and Thwart Attacks</li>
+<li><a href="https://prezi.com/vejpnxkm85ih/actionable-detects-dns-keynote/">Actionable Detects</a> - Blue Team Tactics</li>
+</ul>
+<h3 id="fingerprinting">Fingerprinting</h3>
+<ul>
+<li><a href="https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41">JA3: SSL/TLS Client Fingerprinting for Malware Detection</a></li>
+<li><a href="https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967">TLS Fingerprinting with JA3 and JA3S</a></li>
+<li><a href="https://engineering.salesforce.com/open-sourcing-hassh-abed3ae5044c">HASSH - a profiling method for SSH Clients and Servers</a><ul>
+<li><a href="https://github.com/benjeems/Presentations/blob/master/BSides%202019%20%20-%20HASSH%20-%20a%20Profiling%20Method%20for%20SSH%20Clients%20and%20Servers.pdf">HASSH <a href="https://github.com/BSides">@BSides</a> Canberra 2019 - Slides</a></li></ul></li>
+<li><a href="https://engineering.salesforce.com/finding-evil-on-the-network-using-ja3-s-and-hassh-11431a8606e4">Finding Evil on the Network Using JA3/S and HASSH</a></li>
+<li><a href="https://medium.com/@0x4d31/rdp-client-fingerprinting-9e7ac219f7f4">RDP Fingerprinting - Profiling RDP Clients with JA3 and RDFP</a></li>
+<li><a href="https://www.ntop.org/ndpi/effective-tls-fingerprinting-beyond-ja3/">Effective TLS Fingerprinting Beyond JA3</a></li>
+<li><a href="https://blogs.cisco.com/security/tls-fingerprinting-in-the-real-world">TLS Fingerprinting in the Real World</a></li>
+<li><a href="https://www.ssllabs.com/projects/client-fingerprinting/">HTTP Client Fingerprinting Using SSL Handshake Analysis</a> (source code: <a href="https://github.com/ssllabs/sslhaf">mod_sslhaf</a></li>
+<li><a href="https://blog.squarelemon.com/tls-fingerprinting/">TLS fingerprinting - Smarter Defending & Stealthier Attacking</a></li>
+<li><a href="https://ja3er.com">JA3er</a> - a DB of JA3 fingerprints</li>
+<li><a href="https://www.net-square.com/httprint_paper.html">An Introduction to HTTP fingerprinting</a></li>
+<li><a href="https://tlsfingerprint.io/">TLS Fingerprints</a> collected from the University of Colorado Boulder campus network</li>
+<li><a href="https://tlsfingerprint.io/static/frolov2019.pdf">The use of TLS in Censorship Circumvention</a></li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3355369.3355601">TLS Beyond the Browser: Combining End Host and Network Data to Understand Application Behavior</a></li>
+<li><a href="https://link.springer.com/article/10.1186/s13635-016-0030-7">HTTPS traffic analysis and client identification using passive SSL/TLS fingerprinting</a></li>
+<li><a href="https://drakkar.imag.fr/IMG/pdf/1569811033.pdf">Markov Chain Fingerprinting to Classify Encrypted Traffic</a></li>
+<li><a href="https://www.conand.me/publications/bortolameotti-headprint-2020.pdf">HeadPrint: Detecting Anomalous Communications through Header-based Application Fingerprinting</a></li>
+</ul>
+<h3 id="data-science">Data Science</h3>
+<ul>
+<li><a href="https://github.com/SuperCowPowers/data_hacking">data_hacking</a> - Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.</li>
+<li><a href="https://www.mandiant.com/resources/blog/build-machine-learning-models-for-the-soc">Reverse engineering the analyst: building machine learning models for the SOC</a></li>
+<li><a href="https://github.com/microsoft/msticpy">msticpy</a> - A library for InfoSec investigation and hunting in Jupyter Notebooks.</li>
+</ul>
+<h3 id="research-papers">Research Papers</h3>
+<ul>
+<li><a href="https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf">Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains</a></li>
+<li><a href="http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf">The Diamond Model of Intrusion Analysis</a></li>
+<li><a href="https://www.cs.ucsb.edu/~chris/research/doc/ndss11_exposure.pdf">EXPOSURE: Finding Malicious Domains Using Passive DNS Analysis</a></li>
+<li>A Comprehensive Approach to Intrusion Detection Alert Correlation (<a href="https://www.cs.ucsb.edu/~vigna/publications/2004_valeur_vigna_kruegel_kemmerer_TDSC_Correlation.pdf">Paper</a>, <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.8310&rep=rep1&type=pdf">Dissertation</a>)</li>
+<li><a href="http://www.few.vu.nl/~herbertb/papers/feederbot_ec2nd11.pdf">On Botnets that use DNS for Command and Control</a></li>
+<li><a href="https://dl.acm.org/citation.cfm?id=2991111">Intelligent, Automated Red Team Emulation</a></li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3097983.3098163">Machine Learning for Encrypted Malware Traffic Classification</a></li>
+</ul>
+<h3 id="blogs">Blogs</h3>
+<ul>
+<li><a href="https://detect-respond.blogspot.com">David Bianco's Blog</a></li>
+<li><a href="http://findingbad.blogspot.com">DFIR and Threat Hunting Blog</a></li>
+<li><a href="https://medium.com/@Cyb3rWard0g">CyberWardog's Blog</a> (<a href="https://cyberwardog.blogspot.com">old</a>)</li>
+<li><a href="https://chrissanders.org">Chris Sanders' Blog</a></li>
+<li><a href="https://blog.kolide.com/">Kolide Blog</a></li>
+<li><a href="https://medium.com/anton-on-security">Anton Chuvakin</a></li>
+<li><a href="https://ateixei.medium.com">Alexandre Teixeira</a></li>
+</ul>
+<h3 id="related-awesome-lists">Related Awesome Lists</h3>
+<ul>
+<li><a href="https://github.com/jatrost/awesome-kubernetes-threat-detection">Awesome Kubernetes Threat Detection</a></li>
+<li><a href="https://github.com/meirwah/awesome-incident-response">Awesome Incident Response</a></li>
+<li><a href="https://github.com/cugu/awesome-forensics">Awesome Forensics</a></li>
+<li><a href="https://github.com/paralax/awesome-honeypots">Awesome Honeypots</a></li>
+<li><a href="https://github.com/rshipp/awesome-malware-analysis">Awesome Malware Analysis</a></li>
+<li><a href="https://github.com/InQuest/awesome-yara">Awesome YARA</a></li>
+<li><a href="https://github.com/sbilly/awesome-security">Awesome Security</a></li>
+<li><a href="https://github.com/4ndersonLin/awesome-cloud-security">Awesome Cloud Security</a></li>
+</ul>
+<h2 id="podcasts">Podcasts</h2>
+<ul>
+<li>Google <a href="https://cloud.withgoogle.com/cloudsecurity/podcast/">Cloud Security Podcast</a> by Anton Chuvakin and Timothy Peacock.</li>
+<li><a href="https://www.dcppodcast.com/all-episodes">Detection: Challenging Paradigms</a> by SpecterOps</li>
+<li><a href="https://darknetdiaries.com">Darknet Diaries</a> by Andy Greenberg - True stories from the dark side of the Internet.</li>
+<li><a href="https://risky.biz">Risky Business</a> by Patrick Gray</li>
+</ul>
+<h2 id="newsletters">Newsletters</h2>
+<ul>
+<li><a href="https://www.detectionengineering.net">Detection Engineering Weekly</a> by Zack 'techy' Allen</li>
+<li><a href="https://thisweekin4n6.com">This Week in 4n6</a> - A weekly roundup of digital forensics and incident response news.</li>
+</ul>
+<h2 id="videos">Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLfouvuAjspTr95R60Kt7ZcoerR6tYoCLA">SANS Threat Hunting and IR Summit 2017</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLfouvuAjspTokaa-LdUHqszL-KACkCsKT">SANS Threat Hunting and IR Summit 2016</a></li>
+<li><a href="https://www.youtube.com/watch?v=vv_VXntQTpE">BotConf 2016 - Advanced Incident Detection and Threat Hunting using Sysmon and Splunk</a></li>
+<li><a href="https://www.youtube.com/watch?v=9Uo7V9OUaUw">BSidesCharm 2017 - Detecting the Elusive: Active Directory Threat Hunting</a></li>
+<li><a href="https://www.youtube.com/watch?v=c-c-IQ5pFXw">BSidesAugusta 2017 - Machine Learning Fueled Cyber Threat Hunting</a></li>
+<li><a href="https://www.youtube.com/watch?v=7q7GGg-Ws9s">Toppling the Stack: Outlier Detection for Threat Hunters</a></li>
+<li><a href="https://www.youtube.com/watch?v=bDdsGBCUa8I">BSidesPhilly 2017 - Threat Hunting: Defining the Process While Circumventing Corporate Obstacles</a></li>
+<li><a href="https://www.youtube.com/watch?v=x97ejtv56xw">Black Hat 2017 - Revoke-Obfuscation: PowerShell Obfuscation Detection (And Evasion) Using Science</a></li>
+<li><a href="https://www.youtube.com/watch?v=LUtluTaEAUU">DefCon 25 - MS Just Gave the Blue Team Tactical Nukes</a></li>
+<li><a href="https://www.youtube.com/watch?v=19H7j_sZcKc">BSides London 2017 - Hunt or be Hunted</a></li>
+<li><a href="https://www.youtube.com/watch?v=_QVhMPGtIeU">SecurityOnion 2017 - Pivoting Effectively to Catch More Bad Guys</a></li>
+<li><a href="https://www.youtube.com/watch?v=mKxGulV2Z74">SkyDogCon 2016 - Hunting: Defense Against The Dark Arts</a></li>
+<li><a href="https://www.youtube.com/watch?v=1mfVPLPxKTc">BSidesAugusta 2017 - Don't Google 'PowerShell Hunting'</a></li>
+<li><a href="https://www.youtube.com/watch?v=8qM-DnmHNv8">BSidesAugusta 2017 - Hunting Adversaries w Investigation Playbooks & OpenCNA</a></li>
+<li><a href="https://www.youtube.com/watch?v=98MrgfTFeMo">Visual Hunting with Linked Data</a></li>
+<li><a href="https://www.youtube.com/watch?v=zlAWbdSlhaQ">RVAs3c - Pyramid of Pain: Intel-Driven Detection/Response to Increase Adversary's Cost</a></li>
+<li><a href="https://www.youtube.com/watch?v=2MrrOxsJk_M">BSidesLV 2016 - Hunting on the Endpoint w/ Powershell</a></li>
+<li><a href="https://www.youtube.com/watch?v=MUUseTJp3jM">Derbycon 2015 - Intrusion Hunting for the Masses A Practical Guide</a></li>
+<li><a href="https://www.youtube.com/watch?v=2FvP7nwb2UE&feature=youtu.be">BSides DC 2016 - Practical Cyborgism: Getting Start with Machine Learning for Incident Detection</a></li>
+<li><a href="https://www.youtube.com/watch?v=7JIftAw8wQY">SANS Webcast 2018 - What Event Logs? Part 1: Attacker Tricks to Remove Event Logs</a></li>
+<li><a href="https://www.youtube.com/watch?v=oprPu7UIEuk">Profiling And Detecting All Things SSL With JA3</a></li>
+<li><a href="https://www.youtube.com/watch?v=kG-kenOypLk">ACoD 2019 - HASSH SSH Client/Server Profiling</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLlSdCcsTOu5STvaoPlr-PJE-zbYmlAGrX">QueryCon 2018</a> - An annual conference for the osquery open-source community (<a href="https://querycon.io">querycon.io</a>)</li>
+<li><a href="https://www.youtube.com/watch?v=EpK7MkWCh1I">Visual Hunting with Linked Data Graphs</a></li>
+<li><a href="https://www.youtube.com/watch?v=A6hBoeSNJJw">SecurityOnion Con 2018 - Introduction to Data Analysis</a></li>
+<li><a href="https://www.youtube.com/watch?v=E2rbyoCFNY4">Insider Threats Detection at Airbus – AI up Against Data Leakage and Industrial Espionage</a></li>
+<li><a href="https://www.youtube.com/watch?v=bOOVxGnbKxI">Cyber Security Investigations with Jupyter Notebooks</a></li>
+</ul>
+<h2 id="trainings">Trainings</h2>
+<ul>
+<li><a href="https://www.networkdefense.co/courses/">Applied Network Defense</a> courses by Chris Sanders</li>
+<li>Investigation theory, Practical threat hunting, Detection engineering with Sigma, etc.</li>
+<li><a href="https://securityblue.team/">Security Blue Team</a> (BTL1 and BTL2 certificates)</li>
+<li><a href="https://letsdefend.io">LetsDefend</a> - Hands-On SOC Analyst Training</li>
+<li><a href="https://tryhackme.com">TryHackMe</a> - Hands-on cyber security training through real-world scenarios.</li>
+<li>13Cubed, <a href="https://training.13cubed.com/investigating-windows-endpoints">Investigating Windows Endpoints</a> by Richard Davis</li>
+<li><a href="https://academy.hackthebox.com/">HackTheBox</a> - While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.</li>
+</ul>
+<h2 id="labs">Labs</h2>
+<ul>
+<li><a href="https://github.com/clong/DetectionLab/">DetectionLab</a> - Vagrant &amp; Packer scripts to build a lab environment complete with security tooling and logging best practices.</li>
+<li><a href="https://bots.splunk.com/">Splunk Boss of the SOC</a> - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.</li>
+<li><a href="https://github.com/Cyb3rWard0g/HELK">HELK</a> - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.</li>
+<li><a href="https://github.com/op7ic/BlueTeam.Lab">BlueTeam Lab</a> - A detection lab created with Terraform and Ansible in Azure.</li>
+</ul>
+<h2 id="twitter">Twitter</h2>
+<ul>
+<li><a href="https://twitter.com/0x4d31/lists/awesome-detection">"Awesome Detection" Twitter List</a> - Twitter accounts that tweet about threat detection, hunting and DFIR.</li>
+</ul>
+<h2 id="threat-simulation-tools">Threat Simulation Tools</h2>
+<ul>
+<li><a href="https://github.com/mitre/caldera">MITRE CALDERA</a> - An automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks.</li>
+<li><a href="https://github.com/NextronSystems/APTSimulator">APTSimulator</a> - A Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.</li>
+<li><a href="https://github.com/redcanaryco/atomic-red-team">Atomic Red Team</a> - Small and highly portable detection tests mapped to the Mitre ATT&amp;CK Framework.</li>
+<li><a href="https://github.com/alphasoc/flightsim">Network Flight Simulator</a> - flightsim is a lightweight utility used to generate malicious network traffic and help security teams to evaluate security controls and network visibility.</li>
+<li><a href="https://github.com/uber-common/metta">Metta</a> - A security preparedness tool to do adversarial simulation.</li>
+<li><a href="https://github.com/endgameinc/RTA">Red Team Automation (RTA)</a> - RTA provides a framework of scripts designed to allow blue teams to test their detection capabilities against malicious tradecraft, modeled after MITRE ATT&amp;CK.</li>
+<li><a href="https://github.com/mdsecactivebreach/SharpShooter">SharpShooter</a> - Payload Generation Framework.</li>
+<li><a href="https://github.com/mdsecactivebreach/CACTUSTORCH">CACTUSTORCH</a> - Payload Generation for Adversary Simulations.</li>
+<li><a href="https://github.com/TryCatchHCF/DumpsterFire">DumpsterFire</a> - A modular, menu-driven, cross-platform tool for building repeatable, time-delayed, distributed security events.</li>
+<li><a href="https://github.com/EmpireProject/Empire">Empire</a>(<a href="http://www.powershellempire.com">website</a>) - A PowerShell and Python post-exploitation agent.</li>
+<li><a href="https://github.com/PowerShellMafia/PowerSploit/">PowerSploit</a> - A PowerShell Post-Exploitation Framework.</li>
+<li><a href="https://github.com/redhuntlabs/RedHunt-OS">RedHunt-OS</a> - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.</li>
+<li><a href="https://github.com/guardicore/monkey">Infection Monkey</a> - An open source Breach and Attack Simulation (BAS) tool that assesses the resiliency of private and public cloud environments to post-breach attacks and lateral movement.</li>
+<li><a href="https://github.com/splunk/attack_range">Splunk Attack Range</a> - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.</li>
+</ul>
+<h2 id="threat-simulation-resources">Threat Simulation Resources</h2>
+<ul>
+<li><a href="https://attack.mitre.org/wiki/Adversary_Emulation_Plans">MITRE's Adversary Emulation Plans</a></li>
+<li><a href="https://github.com/yeyintminthuhtut/Awesome-Red-Teaming">Awesome Red Teaming</a> - A list of awesome red teaming resources</li>
+<li><a href="https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki">Red-Team Infrastructure Wiki</a> - Wiki to collect Red Team infrastructure hardening resources.</li>
+<li><a href="https://www.mdsec.co.uk/2018/03/payload-generation-using-sharpshooter/">Payload Generation using SharpShooter</a></li>
+<li><a href="https://posts.specterops.io/">SpecterOps Blog</a><ul>
+<li><a href="https://posts.specterops.io/tagged/threat-hunting">Threat Hunting</a></li></ul></li>
+<li><a href="https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/">Advanced Threat Tactics</a> - A free course on red team operations and adversary simulations.</li>
+<li><a href="https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/signal-att-and-ck-part-1.html">Signal the ATT&CK: Part 1</a> - Modelling APT32 in CALDERA</li>
+<li><a href="https://github.com/infosecn1nja/Red-Teaming-Toolkit">Red Teaming/Adversary Simulation Toolkit</a> - A collection of open source and commercial tools that aid in red team operations.</li>
+<li><a href="https://www.thec2matrix.com/matrix">C2 Matrix</a> (<a href="https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc">Google Sheets</a>)</li>
+</ul>
+<h2 id="contribute">Contribute</h2>
+<p>Contributions welcome! Read the <a href="CONTRIBUTING.md">contribution guidelines</a> first.</p>
+<h2 id="license">License</h2>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0"><img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" alt="CC0" /></a></p>
+<p>To the extent possible under law, Adel &#34;0x4D31&#34; Karimi has waived all copyright and<br />
+related or neighboring rights to this work.</p>
+
+          </div>
+          <style type='text/css'>body {
+    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fbfbfb;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+    body>#content {
+        padding: 0px 20px 20px 20px !important;
+    }
+}
+
+body>#content {
+    margin: 0px;
+    max-width: 900px;
+    border: 1px solid #e1e4e8;
+    padding: 10px 40px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+summary {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+hr {
+    color: #bbb;
+    background-color: #bbb;
+    height: 1px;
+    flex: 0 1 auto;
+    margin: 1em 0;
+    padding: 0;
+    border: none;
+}
+
+.hljs-operator {
+    color: #868686;
+    /* There is a bug where the syntax highlighter would pick no color for e.g. `&&` symbols in the code samples. Let's overwrite this */
+}
+
+
+/**
+ * Links
+ */
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0366d6;
+}
+
+a:hover {
+    color: #0366d6;
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    font-size: 85%;
+    line-height: 1.45;
+    overflow: auto;
+    padding: 16px;
+}
+
+
+/**
+  * Code blocks
+  */
+
+code {
+    background-color: rgba(27, 31, 35, .05);
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    word-wrap: break-word;
+    padding: .2em .4em;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+}
+
+pre>code {
+    background-color: transparent;
+    border: 0;
+    display: inline;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    word-wrap: normal;
+    font-size: 100%;
+}
+
+
+/**
+ * Blockquotes
+ */
+
+blockquote {
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    border-left-width: 3px;
+    padding: 0 1em;
+    color: #828282;
+    border-left: 4px solid #e8e8e8;
+    padding-left: 15px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+}
+
+blockquote * {
+    font-style: normal !important;
+    letter-spacing: 0;
+    color: #6a737d !important;
+}
+
+
+/**
+ * Tables
+ */
+
+table {
+    border-spacing: 2px;
+    display: block;
+    font-size: 14px;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 16px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+th {
+    font-weight: 600;
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+
+/**
+ * Others
+ */
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #24292e;
+}
+
+ul {
+    margin-top: 0;
+}
+
+li {
+    color: #24292e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+li+li {
+    margin-top: 0.25em;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #24292e;
+}
+
+a:visited {
+    color: #0366d6;
+}
+
+h1,
+h2,
+h3 {
+    border-bottom: 1px solid #eaecef;
+    color: #111;
+    /* Darker */
+}
+
+code>* {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}</style>
+          <style type='text/css'>pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-formula,.hljs-keyword{color:#c678dd}.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-addition,.hljs-attribute,.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#98c379}.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#d19a66}.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#61aeee}.hljs-built_in,.hljs-class .hljs-title,.hljs-title.class_{color:#e6c07b}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-link{text-decoration:underline}</style>
+        </body>
+      </html>
