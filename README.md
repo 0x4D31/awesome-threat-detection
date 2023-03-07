@@ -14,7 +14,8 @@
   - 🎙️ [Podcasts](#podcasts)
   - 🗞️ [Newsletters](#newsletters)
   - 🎥 [Videos](#videos)
-  - 👩‍🎓 [Training](#training)
+  - 👩‍🎓 [Trainings](#trainings)
+  - 👩‍💻 [Labs](#labs)
   - 🤖 [Twitter](#twitter)
 - Threat Simulation
   - 🪓 [Tools](#threat-simulation-tools)
@@ -275,9 +276,9 @@
 
 ### Data Science
 
-- [data_hacking](https://github.com/SuperCowPowers/data_hacking): Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.
+- [data_hacking](https://github.com/SuperCowPowers/data_hacking) - Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.
 - [Reverse engineering the analyst: building machine learning models for the SOC](https://www.mandiant.com/resources/blog/build-machine-learning-models-for-the-soc)
-- [msticpy](https://github.com/microsoft/msticpy): A library for InfoSec investigation and hunting in Jupyter Notebooks.
+- [msticpy](https://github.com/microsoft/msticpy) - A library for InfoSec investigation and hunting in Jupyter Notebooks.
 
 ### Research Papers
 
@@ -299,17 +300,23 @@
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
 
+### Other Awesome Resources
+
+- [Awesome Kubernetes threat detection](https://github.com/jatrost/awesome-kubernetes-threat-detection)
+- [Awesome incident response](https://github.com/meirwah/awesome-incident-response)
+- 
+
 ## Podcasts
 
 - Google [Cloud Security Podcast](https://cloud.withgoogle.com/cloudsecurity/podcast/) by Anton Chuvakin and Timothy Peacock.
 - [Detection: Challenging Paradigms](https://www.dcppodcast.com/all-episodes) by SpecterOps
-- [Darknet Diaries](https://darknetdiaries.com) by Andy Greenberg: True stories from the dark side of the Internet.
+- [Darknet Diaries](https://darknetdiaries.com) by Andy Greenberg - True stories from the dark side of the Internet.
 - [Risky Business](https://risky.biz) by Patrick Gray
 
 ## Newsletters
 
 - [Detection Engineering Weekly](https://www.detectionengineering.net) by Zack 'techy' Allen
-- [This Week in 4n6](https://thisweekin4n6.com): A weekly roundup of digital forensics and incident response news.
+- [This Week in 4n6](https://thisweekin4n6.com) - A weekly roundup of digital forensics and incident response news.
 
 ## Videos
 
@@ -342,17 +349,22 @@
 - [Cyber Security Investigations with Jupyter Notebooks](https://www.youtube.com/watch?v=bOOVxGnbKxI)
 
 
-## Training
+## Trainings
 
 - [Applied Network Defense](https://www.networkdefense.co/courses/) courses by Chris Sanders
   - Investigation theory, Practical threat hunting, Detection engineering with Sigma, etc.
 - [Security Blue Team](https://securityblue.team/) (BTL1 and BTL2 certificates)
-- [LetsDefend](https://letsdefend.io): Hands-On SOC Analyst Training
-- [TryHackMe](https://tryhackme.com): Hands-on cyber security training through real-world scenarios.
+- [LetsDefend](https://letsdefend.io) - Hands-On SOC Analyst Training
+- [TryHackMe](https://tryhackme.com) - Hands-on cyber security training through real-world scenarios.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
-- [HackTheBox](https://academy.hackthebox.com/): While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
-- [Splunk's BOTS hands-on workshops](https://bots.splunk.com/): Practice threat hunting using the BOTS and other datasets.
+- [HackTheBox](https://academy.hackthebox.com/) - While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
 
+## Labs
+
+- [DetectionLab](https://github.com/clong/DetectionLab/) - Vagrant & Packer scripts to build a lab environment complete with security tooling and logging best practices.
+- [Splunk Boss of the SOC](https://bots.splunk.com/) - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.
+- [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
+- [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
 
 ## Twitter
 
