@@ -389,6 +389,7 @@
 - [Splunk Boss of the SOC](https://bots.splunk.com/) - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
+- [attack_range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
 
 ## Twitter
 
