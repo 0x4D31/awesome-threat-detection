@@ -203,11 +203,9 @@
 - [Cyber Kill Chain](https://www.lockheedmartin.com/us/what-we-do/aerospace-defense/cyber/cyber-kill-chain.html) - It is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective.
 - [The DML Model](http://ryanstillions.blogspot.com.au/2014/04/the-dml-model_21.html) - The Detection Maturity Level (DML) model is a capability maturity model for referencing ones maturity in detecting cyber attacks.
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [OSSEM](https://github.com/hunters-forge/OSSEM) (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems
-- [MITRE Engage](https://engage.mitre.org/) - A framework
-for planning and discussing adversary engagement operations
-that empowers you to engage your adversaries
-and achieve your cybersecurity goals.
+- [OSSEM](https://github.com/hunters-forge/OSSEM) (Open Source Security Events Metadata) - A community-led project that focuses on the documentation and standardization of security event logs from diverse data sources and operating systems.
+- [Open Cybersecurity Schema Framework (OCSF)](https://github.com/ocsf/ocsf-schema) -  A framework for creating schemas and it also delivers a cybersecurity event schema built with the framework ([schema browser](https://schema.ocsf.io/)).
+- [MITRE Engage](https://engage.mitre.org/) - A framework for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals.
 - [MaGMa Use Case Defintion Model](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-use-case-framework-verkorte-versie.pdf) - A business-centric approach for planning and defining threat detection use cases.
 
 ### Windows
