@@ -116,7 +116,7 @@
 - [Splunk Detections](https://research.splunk.com/detections/) and [Analytic stories](https://research.splunk.com/stories/)
 - [Elastic Detection Rules](https://github.com/elastic/detection-rules)
 - [MITRE CAR](https://car.mitre.org/) - The Cyber Analytics Repository is a knowledge base of analytics developed by MITRE based on the Adversary Tactics, Techniques, and Common Knowledge (ATT&CK™) adversary model.
-- [Awesome YARA Rules](https://github.com/InQuest/awesome-yara)
+- [Awesome YARA Rules](https://github.com/InQuest/awesome-yara#rules)
 
 ## Dataset
 
