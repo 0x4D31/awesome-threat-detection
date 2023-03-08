@@ -21,7 +21,7 @@
     - [DNS](#dns)
     - [Fingerprinting](#fingerprinting)
     - [Data Science](#data-science)
-    - [Research Papers](research-papers)
+    - [Research Papers](#research-papers)
     - [Blogs](#blogs)
     - [Related Awesome Lists](#related-awesome-lists)
   - 🎙️ [Podcasts](#podcasts)
