@@ -202,7 +202,7 @@
 - [Lessons Learned in Detection Engineering](https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856) - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.
 - [A Research-Driven process applied to Threat Detection Engineering Inputs](https://ateixei.medium.com/a-research-driven-process-applied-to-threat-detection-engineering-inputs-1b7e6fe0412b).
 - [Investigation Scenario](https://twitter.com/search?q=%23InvestigationPath%20from%3Achrissanders88&f=live) tweets by Chris Sanders
-- [Oh My Malware](https://ohmymalware.com)A video series focused on malware execution and investigations using Elastic Security.
+- [Oh My Malware](https://ohmymalware.com) A video series focused on malware execution and investigations using Elastic Security.
 
 ### Frameworks
 
