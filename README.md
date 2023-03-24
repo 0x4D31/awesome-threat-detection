@@ -84,6 +84,7 @@
 - [StreamAlert](https://github.com/airbnb/streamalert) - A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define
 - [Matano](https://github.com/matanolabs/matano): An open source security lake platform (SIEM alternative) for threat hunting, detection and response on AWS. Matano lets you write advanced detections as code (using python) to correlate and alert on threats in realtime.
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
+- [Sublime Platform](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
 
 ### Endpoint Monitoring
 
