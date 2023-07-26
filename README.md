@@ -11,6 +11,7 @@
     - [Detection, Alerting and Automation Platforms](#detection-alerting-and-automation-platforms)
     - [Endpoint Monitoring](#endpoint-monitoring)
     - [Network Monitoring](#network-monitoring)
+    - [Email Monitoring](#email-monitoring)
   - 🔍 [Detection Rules](#detection-rules)
   - 📑 [Dataset](#dataset)
   - 📘 [Resources](#resources)
@@ -21,7 +22,7 @@
     - [DNS](#dns)
     - [Fingerprinting](#fingerprinting)
     - [Data Science](#data-science)
-    - [Research Papers](research-papers)
+    - [Research Papers](#research-papers)
     - [Blogs](#blogs)
     - [Related Awesome Lists](#related-awesome-lists)
   - 🎙️ [Podcasts](#podcasts)
@@ -85,6 +86,7 @@
 - [Matano](https://github.com/matanolabs/matano): An open source security lake platform (SIEM alternative) for threat hunting, detection and response on AWS. Matano lets you write advanced detections as code (using python) to correlate and alert on threats in realtime.
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 - [Sublime](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
+- [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit for security teams.
 
 ### Endpoint Monitoring
 
@@ -131,6 +133,10 @@
 - [Hfinger](https://github.com/CERT-Polska/hfinger) - Fingerprinting HTTP requests
 - [JARM](https://github.com/salesforce/jarm) - An active Transport Layer Security (TLS) server fingerprinting tool.
 
+### Email Monitoring
+
+- [Sublime Platform](https://github.com/sublime-security/sublime-platform) - An email threat detection engine
+
 ## Detection Rules
 
 - [Sigma](https://github.com/SigmaHQ/sigma) - Generic Signature Format for SIEM Systems
@@ -141,6 +147,7 @@
 - [Chronicle Detection Rules](https://github.com/chronicle/detection-rules) - Collection of YARA-L 2.0 sample rules for the Chronicle Detection API.
 - [GCP Security Analytics](https://github.com/GoogleCloudPlatform/security-analytics) - Community Security Analytics provides a set of community-driven audit & threat queries for Google Cloud.
 - [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - A community-driven, open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient.
+- [Sublime Detection Rules](https://github.com/sublime-security/sublime-rules) - Email attack detection, response, and hunting rules.
 
 ## Dataset
 
@@ -157,6 +164,7 @@
 - [EVTX-ATTACK-SAMPLES](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES) - A repo of Windows event samples (EVTX) associated with ATT&CK techniques ([EVTX-ATT&CK Sheet](https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit#gid=164587082)).
 - [Public Security Log Sharing Site](http://log-sharing.dreamhosters.com)
 - [attack_data](https://github.com/splunk/attack_data) - A repository of curated datasets from various attacks.
+
 
 
 ## Resources
@@ -202,6 +210,7 @@
 - [Lessons Learned in Detection Engineering](https://medium.com/starting-up-security/lessons-learned-in-detection-engineering-304aec709856) - A well experienced detection engineer describes in detail his observations, challenges, and recommendations for building an effective threat detection program.
 - [A Research-Driven process applied to Threat Detection Engineering Inputs](https://ateixei.medium.com/a-research-driven-process-applied-to-threat-detection-engineering-inputs-1b7e6fe0412b).
 - [Investigation Scenario](https://twitter.com/search?q=%23InvestigationPath%20from%3Achrissanders88&f=live) tweets by Chris Sanders
+- [Oh My Malware](https://ohmymalware.com) - A video series focused on malware execution and investigations using Elastic Security.
 
 ### Frameworks
 
