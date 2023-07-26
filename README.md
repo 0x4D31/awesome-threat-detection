@@ -11,6 +11,7 @@
     - [Detection, Alerting and Automation Platforms](#detection-alerting-and-automation-platforms)
     - [Endpoint Monitoring](#endpoint-monitoring)
     - [Network Monitoring](#network-monitoring)
+    - [Email Monitoring](#email-monitoring)
   - 🔍 [Detection Rules](#detection-rules)
   - 📑 [Dataset](#dataset)
   - 📘 [Resources](#resources)
@@ -130,6 +131,10 @@
 - [Recog](https://github.com/rapid7/recog) - A framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes
 - [Hfinger](https://github.com/CERT-Polska/hfinger) - Fingerprinting HTTP requests
 - [JARM](https://github.com/salesforce/jarm) - An active Transport Layer Security (TLS) server fingerprinting tool.
+
+### Email Monitoring
+
+- [Sublime Platform](https://github.com/sublime-security/sublime-platform) - An email threat detection engine
 
 ## Detection Rules
 
