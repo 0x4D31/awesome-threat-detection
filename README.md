@@ -81,12 +81,15 @@
 
 ### Detection, Alerting and Automation Platforms
 
+> Check out the [Detection and Response Pipeline](https://github.com/0x4D31/detection-and-response-pipeline) repository for more resources. The repo contains a compilation of suggested tools/services for each component in a detection and response pipeline, along with real-world examples. The purpose is to create a reference hub for designing effective threat detection and response pipelines.
+
 - [ElastAlert](https://github.com/Yelp/elastalert) - A framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch
 - [StreamAlert](https://github.com/airbnb/streamalert) - A serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define
 - [Matano](https://github.com/matanolabs/matano): An open source security lake platform (SIEM alternative) for threat hunting, detection and response on AWS. Matano lets you write advanced detections as code (using python) to correlate and alert on threats in realtime.
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 - [Sublime](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
 - [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit for security teams.
+
 
 ### Endpoint Monitoring
 
