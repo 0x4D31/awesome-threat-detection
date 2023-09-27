@@ -89,6 +89,7 @@
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 - [Sublime](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
 - [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit for security teams.
+- [swiftGuard](https://github.com/Lennolium/swiftGuard) - Anti-forensic macOS tray application designed to safeguard your system/server by monitoring USB ports for unauthorized access.
 
 
 ### Endpoint Monitoring
