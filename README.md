@@ -400,6 +400,7 @@
 
 ## Labs
 
+- [LabEx](https://labex.io/skilltrees/cybersecurity) - Hands-on labs for cyber security, covering tools like Nmap, Wireshark, Kali, and more.
 - [DetectionLab](https://github.com/clong/DetectionLab/) - Vagrant & Packer scripts to build a lab environment complete with security tooling and logging best practices.
 - [Splunk Boss of the SOC](https://bots.splunk.com/) - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
