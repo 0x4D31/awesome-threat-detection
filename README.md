@@ -397,7 +397,6 @@
 - [TryHackMe](https://tryhackme.com) - Hands-on cyber security training through real-world scenarios.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
 - [HackTheBox](https://academy.hackthebox.com/) - While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
-- [SOCLabs](https://www.soc-labs.top/) - A lab for blue teamers and detection engineers, with real threat data and support for popular SIEM query languages, enabling hands-on learning and practice in detection rule writing and threat hunting.
 
 ## Labs
 
@@ -406,6 +405,8 @@
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
 - [attack_range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
+- [SOCLabs](https://www.soc-labs.top/) - A lab for blue teamers and detection engineers, with real threat data and support for popular SIEM query languages, enabling hands-on learning and practice in detection rule writing and threat hunting.
+
 
 ## Twitter
 
