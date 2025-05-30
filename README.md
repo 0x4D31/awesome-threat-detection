@@ -397,6 +397,7 @@
 - [TryHackMe](https://tryhackme.com) - Hands-on cyber security training through real-world scenarios.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
 - [HackTheBox](https://academy.hackthebox.com/) - While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
+- [SOCLabs](https://www.soc-labs.top/) - A lab for blue teamers and detection engineers, with real threat data and support for popular SIEM query languages, enabling hands-on learning and practice in detection rule writing and threat hunting.
 
 ## Labs
 
