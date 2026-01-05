@@ -336,6 +336,7 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+- [Hunt.io Threat Research Blog](https://hunt.io/blog)
 
 ### Related Awesome Lists
 
