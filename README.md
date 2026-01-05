@@ -66,9 +66,11 @@
 - [ThreatHunting](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts
 - [Sentinel Attack](https://github.com/BlueTeamLabs/sentinel-attack) - A repository of Azure Sentinel alerts and hunting queries leveraging sysmon and the MITRE ATT&CK framework
 - [Brim](https://github.com/brimsec/brim) - A desktop application to efficiently search large packet captures and Zeek logs
-- [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
-- [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
+- [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
+- [Have I Been Squatted](https://haveibeensquatted.com) - A fast domain typosquatting detection tool.
+- [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
+- [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 - [Splunk Security Content](https://github.com/splunk/security_content) Splunk-curated detection content that can easily be used accross many SIEMs (see Uncoder Rule Converter.) 
 - [Threat Bus](https://github.com/tenzir/threatbus) - Threat intelligence dissemination layer to connect security tools through a distributed publish/subscribe message broker.
 - [VAST](https://github.com/tenzir/vast) - A network telemetry engine for data-driven security investigations.
