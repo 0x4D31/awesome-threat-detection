@@ -81,6 +81,7 @@
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 - [Synthetic Adversarial Log Objects (SALO)](https://github.com/splunk/salo) - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.
+- [Thread](https://app.arachne.digital/thread) - An open source tool for mapping free text to ATT&CK. Outputs as a report and JSON that can be visualised in MITRE ATT&CK Navigator.
 
 ### Detection, Alerting and Automation Platforms
 
@@ -336,6 +337,7 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+- [Arachne Digital](https://medium.com/@arachnedigital)
 
 ### Related Awesome Lists
 
