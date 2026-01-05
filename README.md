@@ -408,6 +408,8 @@
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
 - [attack_range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
+- [SOCLabs](https://www.soc-labs.top/) - A lab for blue teamers and detection engineers, with real threat data and support for popular SIEM query languages, enabling hands-on learning and practice in detection rule writing and threat hunting.
+
 
 ## Twitter
 
