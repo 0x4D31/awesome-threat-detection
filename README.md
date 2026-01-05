@@ -41,6 +41,7 @@
 
 ## Tools
 
+- [NRD-db](https://github.com/StrackVibes/NRD-db) - Automatically fetches and stores newly registered domains in a Redis database.
 - [MITRE ATT&CK Navigator](https://mitre.github.io/attack-navigator/enterprise/) ([source code](https://github.com/mitre-attack/attack-navigator)) - The ATT&CK Navigator is designed to provide basic navigation and annotation of ATT&CK matrices, something that people are already doing today in tools like Excel.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [DetectionLab](https://github.com/clong/DetectionLab/) - Vagrant & Packer scripts to build a lab environment complete with security tooling and logging best practices.
@@ -122,7 +123,7 @@
 - [Snort](https://snort.org) ([github](https://github.com/snort3/snort3)) - A network intrusion detection tool 
 - [Joy](https://github.com/cisco/joy) - A package for capturing and analyzing network flow data and intraflow data, for network research, forensics, and security monitoring
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
-- [Moloch](https://github.com/aol/moloch) - A large scale and open source full packet capture and search tool
+- [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
 
 #### Fingerprinting Tools
