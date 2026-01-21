@@ -97,6 +97,7 @@
 ### Endpoint Monitoring
 
 - [osquery](https://osquery.io) ([github](https://github.com/osquery/osquery)) - SQL powered operating system instrumentation, monitoring, and analytics
+- [POFR](https://www.steelcyber.com/pofr.html) ([github](https://github.com/gmagklaras/POFR)) - The Penguin OS Forensic (or Flight) Recorder (POFR) collects, stores and organizes in a layer for further analysis, process execution, file access and network/socket endpoint data from the Linux Operating System and derivatives. 
 - [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
 - [Zeek Agent](https://github.com/zeek/zeek-agent) - An endpoint monitoring agent that provides host activity to Zeek
 - [Velociraptor](https://github.com/Velocidex/velociraptor) - Endpoint visibility and collection tool
