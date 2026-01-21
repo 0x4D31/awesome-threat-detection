@@ -106,6 +106,8 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [Chainsaw]([GitHub](https://github.com/countercept/chainsaw) - A fast, portable tool for triaging Windows event logs to detect threats and anomalies.
+
 
 #### Configuration
 
