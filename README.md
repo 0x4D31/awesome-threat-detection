@@ -396,6 +396,7 @@
 - [Applied Network Defense](https://www.networkdefense.co/courses/) courses by Chris Sanders
   - Investigation theory, Practical threat hunting, Detection engineering with Sigma, etc.
 - [Security Blue Team](https://securityblue.team/) (BTL1 and BTL2 certificates)
+- [CyberDefenders](https://cyberdefenders.org/) Hands-On Blue Team training platform for SOC analysts, threat hunters, and DFIR professionals.
 - [LetsDefend](https://letsdefend.io) - Hands-On SOC Analyst Training
 - [TryHackMe](https://tryhackme.com) - Hands-on cyber security training through real-world scenarios.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
