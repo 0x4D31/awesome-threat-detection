@@ -31,6 +31,7 @@
   - 👩‍🎓 [Trainings](#trainings)
   - 👩‍💻 [Labs](#labs)
   - 🤖 [Twitter](#twitter)
+  - 🤖 [Mastodon](#mastodon)
 - Threat Simulation
   - 🪓 [Tools](#threat-simulation-tools)
   - 📕 [Resources](#threat-simulation-resources)
@@ -336,6 +337,7 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+- [Keith Jones' Cyber Security Blog](https://drkeithjones.com)
 
 ### Related Awesome Lists
 
@@ -389,6 +391,7 @@
 - [SecurityOnion Con 2018 - Introduction to Data Analysis](https://www.youtube.com/watch?v=A6hBoeSNJJw)
 - [Insider Threats Detection at Airbus – AI up Against Data Leakage and Industrial Espionage](https://www.youtube.com/watch?v=E2rbyoCFNY4)
 - [Cyber Security Investigations with Jupyter Notebooks](https://www.youtube.com/watch?v=bOOVxGnbKxI)
+- [Keith Jones' Cyber Security Videos](https://www.youtube.com/@dr.keithjones)
 
 
 ## Trainings
@@ -412,7 +415,11 @@
 ## Twitter
 
 - ["Awesome Detection" Twitter List](https://twitter.com/0x4d31/lists/awesome-detection) - Twitter accounts that tweet about threat detection, hunting and DFIR.
+- [keithjjones](https://www.twitter.com/keithjjones) - Various cyber security topics.
 
+## Mastodon
+
+- [keithjjones](https://infosec.exchange/@keithjjones) - Various cyber security topics.
 
 ## Threat Simulation Tools
 
