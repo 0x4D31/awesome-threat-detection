@@ -354,6 +354,7 @@
 - [Detection: Challenging Paradigms](https://www.dcppodcast.com/all-episodes) by SpecterOps
 - [Darknet Diaries](https://darknetdiaries.com) by Andy Greenberg - True stories from the dark side of the Internet.
 - [Risky Business](https://risky.biz) by Patrick Gray
+- [eCrimeBytes](https://ecrimebytes.com) by Keith Jones and Seth Eichenholtz
 
 ## Newsletters
 
