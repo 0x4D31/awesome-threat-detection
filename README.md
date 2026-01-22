@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [SafeLine WAF](https://github.com/chaitin/SafeLine) - SafeLine is a web security gateway, make your web app secure default, serve as a reverse proxy to protect your websites from attacks and exploits.
 
 #### Fingerprinting Tools
 
