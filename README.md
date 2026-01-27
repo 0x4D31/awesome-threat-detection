@@ -55,6 +55,7 @@
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
 - [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI) - A PowerShell Module for Hunt Teaming via Windows Event Logs
 - [Uncoder](https://uncoder.io) - An online translator for SIEM saved searches, filters, queries, API requests, correlation and Sigma rules
+- [Whisper](https://whisper.security) - Real-time graph intelligence platform that correlates 45 billion internet infrastructure data points (BGP routing, DNS, WHOIS, SSL/TLS) to provide threat context and reduce false positives during threat detection and hunting.
 - [CimSweep](https://github.com/PowerShellMafia/CimSweep) - A suite of CIM/WMI-based tools that enable the ability to perform incident response and hunting operations remotely across all versions of Windows
 - [Dispatch](https://github.com/Netflix/dispatch) - An open-source crisis management orchestration framework
 - [EQL](https://github.com/endgameinc/eql) - Event Query Language
