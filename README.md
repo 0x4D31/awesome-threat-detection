@@ -81,6 +81,8 @@
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 - [Synthetic Adversarial Log Objects (SALO)](https://github.com/splunk/salo) - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.
+- [Rupurt](https://github.com/bad-antics/rupurt) - Advanced Linux rootkit hunter with 250+ detection signatures, eBPF-based monitoring, kernel module analysis, and real-time filesystem integrity checking.
+- [NullSec LogReaper](https://github.com/bad-antics/nullsec-logreaper) - High-speed log analysis and forensics tool for threat hunting across syslog, auth, journal, and custom log formats with pattern matching and anomaly detection.
 
 ### Detection, Alerting and Automation Platforms
 
