@@ -71,6 +71,7 @@
 - [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
 - [Have I Been Squatted](https://haveibeensquatted.com) - A fast domain typosquatting detection tool.
 - [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
+- [isMalicious](https://ismalicious.com/) - A real-time threat intelligence API for checking IPs, domains, and URLs against 500M+ threat indicators from 600+ curated sources, with streaming feeds and built-in monitoring.
 - [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 - [Splunk Security Content](https://github.com/splunk/security_content) Splunk-curated detection content that can easily be used accross many SIEMs (see Uncoder Rule Converter.) 
 - [Threat Bus](https://github.com/tenzir/threatbus) - Threat intelligence dissemination layer to connect security tools through a distributed publish/subscribe message broker.
