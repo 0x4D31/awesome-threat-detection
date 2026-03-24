@@ -336,6 +336,7 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+- [defend.network](https://defend.network) - Free AI-powered daily threat briefings structured by threat type, industry, and severity, with weekly vulnerability reports and remediation guidance.
 
 ### Related Awesome Lists
 
