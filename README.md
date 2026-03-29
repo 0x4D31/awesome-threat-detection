@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [InnerWarden](https://innerwarden.com) ([source code](https://github.com/InnerWarden/innerwarden)) - Autonomous security agent for Linux with real-time threat detection and automated response. Uses 38 eBPF programs (via Aya) covering tracepoints, kprobes, LSM hooks, and XDP for kernel-level visibility. Written in Rust.
 
 #### Configuration
 
