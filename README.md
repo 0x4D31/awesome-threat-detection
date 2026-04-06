@@ -4,6 +4,7 @@
 > A curated list of awesome threat detection and hunting resources
 
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts including automated threat detection, security monitoring, and incident response orchestration. MIT licensed.
 ## Contents
 
 - Threat Detection and Hunting
