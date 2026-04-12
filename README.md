@@ -77,6 +77,7 @@
 - [VAST](https://github.com/tenzir/vast) - A network telemetry engine for data-driven security investigations.
 - [zeek2es](https://github.com/corelight/zeek2es) - An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!
 - [LogSlash](https://github.com/FoxIO-LLC/LogSlash): A standard for reducing log volume without sacrificing analytical capability.
+- [NullSec LogReaper](https://github.com/bad-antics/nullsec-logreaper) - High-speed log analysis and forensics tool with multi-format parsing, pattern matching, timeline reconstruction, and anomaly detection for threat hunting and incident response.
 - [SOC-Multitool](https://github.com/zdhenard42/SOC-Multitool): A powerful and user-friendly browser extension that streamlines investigations for security professionals.
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
