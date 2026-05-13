@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [Rustinel](https://github.com/Karib0u/rustinel) - Open-source endpoint detection engine for Windows and Linux using ETW, eBPF, Sigma, YARA, IOC matching, and ECS NDJSON alerts.
 
 #### Configuration
 
