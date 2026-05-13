@@ -81,6 +81,7 @@
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 - [Synthetic Adversarial Log Objects (SALO)](https://github.com/splunk/salo) - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.
+- [Eventum](https://github.com/eventum-generator/eventum) - Data generation platform for producing synthetic event streams with complex correlations.
 
 ### Detection, Alerting and Automation Platforms
 
