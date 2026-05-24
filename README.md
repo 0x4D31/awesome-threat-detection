@@ -66,6 +66,7 @@
 - [hollows_hunter](https://github.com/hasherezade/hollows_hunter) - Scans all running processes, recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
 - [ThreatHunting](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts
 - [Sentinel Attack](https://github.com/BlueTeamLabs/sentinel-attack) - A repository of Azure Sentinel alerts and hunting queries leveraging sysmon and the MITRE ATT&CK framework
+- [m365-security-operations](https://github.com/ibondarenko1/m365-security-operations) - Audit-and-remediate toolkit for Microsoft 365 plus Cloudflare. Ships 5 MITRE ATT&CK-mapped Microsoft Sentinel scheduled analytics rule ARM templates and 10 KQL hunting drills covering Persistence, Impact, Discovery, Privilege Escalation, and Defense Evasion tactics.
 - [Brim](https://github.com/brimsec/brim) - A desktop application to efficiently search large packet captures and Zeek logs
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
 - [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
