@@ -69,6 +69,7 @@
 - [Brim](https://github.com/brimsec/brim) - A desktop application to efficiently search large packet captures and Zeek logs
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
 - [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
+- [CVE PoC Search](https://labs.jamessawyer.co.uk/cves/) - Search public GitHub proof-of-concept repositories by CVE identifier, with 30,000+ CVEs indexed and daily updates.
 - [Have I Been Squatted](https://haveibeensquatted.com) - A fast domain typosquatting detection tool.
 - [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
 - [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
