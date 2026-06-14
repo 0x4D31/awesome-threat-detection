@@ -408,6 +408,8 @@
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
 - [attack_range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
+- [CTI as a Code](https://github.com/anpa1200/CTI_as_a_Code) - Docker Compose CTI analyst lab with OpenCTI, TheHive, Elastic SIEM, Cortex, templates, and structured detection-engineering assignments.
+- [Operation Desert Hydra](https://github.com/anpa1200/operation-desert-hydra) - CTI-to-detection validation lab with OpenCTI, Kibana evidence, Sigma/KQL/SPL detections, and ATT&CK coverage mapping.
 
 ## Twitter
 
@@ -430,6 +432,7 @@
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
 - [Infection Monkey](https://github.com/guardicore/monkey) - An open source Breach and Attack Simulation (BAS) tool that assesses the resiliency of private and public cloud environments to post-breach attacks and lateral movement.
 - [Splunk Attack Range](https://github.com/splunk/attack_range) - A tool that allows you to create vulnerable instrumented local or cloud environments to simulate attacks against and collect the data into Splunk.
+- [Operation DragonRx](https://github.com/anpa1200/dragonrx-lab) - APT41-style attack simulation lab covering Log4Shell initial access, Sliver C2, Active Directory lateral movement, Wazuh, Zeek, and Elastic detections.
 
 
 ## Threat Simulation Resources
