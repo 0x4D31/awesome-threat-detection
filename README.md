@@ -42,6 +42,7 @@
 ## Tools
 
 - [NRD-db](https://github.com/StrackVibes/NRD-db) - Automatically fetches and stores newly registered domains in a Redis database.
+- [AdversaryGraph](https://github.com/anpa1200/adversarygraph) - Self-hosted CTI-to-detection workbench that maps reports and IOCs to ATT&CK, compares actor/TTP coverage, and generates Sigma, YARA, YARA-L, KQL, SPL, and EQL detection drafts.
 - [MITRE ATT&CK Navigator](https://mitre.github.io/attack-navigator/enterprise/) ([source code](https://github.com/mitre-attack/attack-navigator)) - The ATT&CK Navigator is designed to provide basic navigation and annotation of ATT&CK matrices, something that people are already doing today in tools like Excel.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [DetectionLab](https://github.com/clong/DetectionLab/) - Vagrant & Packer scripts to build a lab environment complete with security tooling and logging best practices.
