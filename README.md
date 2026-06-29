@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) - Lightweight network traffic monitor with adaptive baseline detection for volumetric DDoS attacks, supporting raw packet capture, sFlow, NetFlow, and IPFIX.
 
 #### Fingerprinting Tools
 
