@@ -154,6 +154,7 @@
 - [GCP Security Analytics](https://github.com/GoogleCloudPlatform/security-analytics) - Community Security Analytics provides a set of community-driven audit & threat queries for Google Cloud.
 - [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - A community-driven, open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient.
 - [Sublime Detection Rules](https://github.com/sublime-security/sublime-rules) - Email attack detection, response, and hunting rules.
+- [Clankerusecase](https://clankerusecase.com) - Threat-led library of 7,800+ MITRE ATT&CK-mapped detections in Defender/Sentinel KQL, Sigma, Splunk SPL, Datadog, Falcon & CloudWatch, generated from live threat-intel and schema-validated.
 
 ## Dataset
 
