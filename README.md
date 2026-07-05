@@ -154,6 +154,8 @@
 - [GCP Security Analytics](https://github.com/GoogleCloudPlatform/security-analytics) - Community Security Analytics provides a set of community-driven audit & threat queries for Google Cloud.
 - [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - A community-driven, open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient.
 - [Sublime Detection Rules](https://github.com/sublime-security/sublime-rules) - Email attack detection, response, and hunting rules.
+- [LogTriage Detection Rules](https://logtriage.app/rules/) - Free Sigma rules, each validated against a real sample log; mapped to log source and MITRE ATT&CK.
+
 
 ## Dataset
 
