@@ -154,6 +154,7 @@
 - [GCP Security Analytics](https://github.com/GoogleCloudPlatform/security-analytics) - Community Security Analytics provides a set of community-driven audit & threat queries for Google Cloud.
 - [ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - A community-driven, open-source project to share detection logic, adversary tradecraft and resources to make detection development more efficient.
 - [Sublime Detection Rules](https://github.com/sublime-security/sublime-rules) - Email attack detection, response, and hunting rules.
+- [Ridgeline Detection Library](https://github.com/ridgelinecyberdefence/Enterprise-Detection-Engineering) - Production-validated detections across nine platforms (KQL, Sigma, Splunk, Athena, PowerShell, Velociraptor, YARA, Suricata, osquery), each with triggers, false positives, tuning guidance, and validation steps.
 
 ## Dataset
 
