@@ -92,6 +92,7 @@
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 - [Sublime](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
 - [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit for security teams.
+- [AEGIS](https://github.com/conchaestradamiguelangel-droid/aegis) - Autonomous IDS/IPS with nine layered defenses, ML-DSA-87 post-quantum signed alerts (NIST FIPS 204), and zero telemetry. Self-hosted, GPL-3.0.
 
 
 ### Endpoint Monitoring
