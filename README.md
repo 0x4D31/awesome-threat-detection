@@ -92,6 +92,7 @@
 - [Shuffle](https://github.com/Shuffle/Shuffle): A general purpose security automation platform.
 - [Sublime](https://github.com/sublime-security/sublime-platform): An open platform for detection, response, and threat hunting in email environments. Sublime lets you write advanced detections as code to alert and remediate threats like phishing in real-time.
 - [Substation](https://github.com/brexhq/substation) - A cloud native data pipeline and transformation toolkit for security teams.
+- [SOCTalk](https://github.com/soctalk/soctalk): Open source, LLM driven SOC automation platform for MSPs and MSSPs built on Wazuh. Continuously triages, investigates, and escalates Wazuh alerts through a two tier AI pipeline with human in the loop review, a no code triage policy editor, and response playbooks mapped to ATT&CK techniques. Apache 2.0.
 
 
 ### Endpoint Monitoring
