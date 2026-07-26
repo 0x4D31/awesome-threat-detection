@@ -70,6 +70,7 @@
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
 - [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
 - [Have I Been Squatted](https://haveibeensquatted.com) - A fast domain typosquatting detection tool.
+- [openSquat](https://github.com/atenreiro/opensquat) - An open source tool to detect typosquatting, IDN homograph, doppelganger and bitsquatting domains in newly registered domain feeds.
 - [Intel Owl](https://github.com/intelowlproject/IntelOwl) - An Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale.
 - [YARA](https://github.com/virustotal/yara) - The pattern matching swiss knife
 - [Splunk Security Content](https://github.com/splunk/security_content) Splunk-curated detection content that can easily be used accross many SIEMs (see Uncoder Rule Converter.) 
