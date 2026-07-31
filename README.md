@@ -404,6 +404,7 @@
 ## Labs
 
 - [DetectionLab](https://github.com/clong/DetectionLab/) - Vagrant & Packer scripts to build a lab environment complete with security tooling and logging best practices.
+- [DLL Injection Lab](https://github.com/bsmensah-ctrl/DLL-Injection-Lab) - Deterministic synthetic-event lab for testing five-stage DLL-injection correlation without touching live processes.
 - [Splunk Boss of the SOC](https://bots.splunk.com/) - Hands-on workshops and challenges to practice threat hunting using the BOTS and other datasets.
 - [HELK](https://github.com/Cyb3rWard0g/HELK) - A Hunting ELK (Elasticsearch, Logstash, Kibana) with advanced analytic capabilities.
 - [BlueTeam Lab](https://github.com/op7ic/BlueTeam.Lab) - A detection lab created with Terraform and Ansible in Azure.
