@@ -138,6 +138,7 @@
 - [Recog](https://github.com/rapid7/recog) - A framework for identifying products, services, operating systems, and hardware by matching fingerprints against data returned from various network probes
 - [Hfinger](https://github.com/CERT-Polska/hfinger) - Fingerprinting HTTP requests
 - [JARM](https://github.com/salesforce/jarm) - An active Transport Layer Security (TLS) server fingerprinting tool.
+- [c2-fingerprint](https://github.com/0xPersist/c2-fingerprint) - A TLS/SSL C2 session detector using JA3/JA4 fingerprinting, certificate chain analysis, and cipher anomaly detection from Zeek logs or PCAP.
 
 ### Email Monitoring
 
