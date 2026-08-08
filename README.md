@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [beacon-score](https://github.com/0xPersist/beacon-score) - A multi-signal C2 beacon detector that correlates Zeek conn, dns, and ssl logs to score and rank beacon candidates with ATT&CK mapping.
 
 #### Fingerprinting Tools
 
