@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [ttl-watch](https://github.com/0xPersist/ttl-watch) - A multi-signal DNS anomaly detector for TTL manipulation, DGA, fast-flux, and DNS tunneling from Zeek logs or PCAP.
 
 #### Fingerprinting Tools
 
