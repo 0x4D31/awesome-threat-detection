@@ -81,6 +81,7 @@
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 - [Synthetic Adversarial Log Objects (SALO)](https://github.com/splunk/salo) - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.
+- [sagan2sigma](https://github.com/NRGLine4Sec/sagan2sigma) - A converter from Sagan rules (Snort/Suricata syntax) to Sigma, with a report explaining every rule that did not convert and why.
 
 ### Detection, Alerting and Automation Platforms
 
