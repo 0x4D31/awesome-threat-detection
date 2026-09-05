@@ -50,6 +50,7 @@
 - [Unfetter](https://github.com/unfetter-analytic/unfetter) - A reference implementation provides a framework for collecting events (process creation, network connections, Window Event Logs, etc.) from a client machine and performing CAR analytics to detect potential adversary activity.
 - [Flare](https://github.com/austin-taylor/flare) - An analytical framework for network traffic and behavioral analytics.
 - [RedHunt-OS](https://github.com/redhuntlabs/RedHunt-OS) - A Virtual Machine for Adversary Emulation and Threat Hunting. RedHunt aims to be a one stop shop for all your threat emulation and threat hunting needs by integrating attacker's arsenal as well as defender's toolkit to actively identify the threats in your environment.
+- [DetectOps-OS](https://github.com/offsec-ttps/DetectOps-OS) - A free, offline-capable Debian-based Linux distribution with 94 detection engineering tools pre-installed across attack simulation, detection engineering, threat hunting, SIEM, and forensics, so you boot one ISO instead of assembling a lab from scratch.
 - [Oriana](https://github.com/mvelazc0/Oriana) - Lateral movement and threat hunting tool for Windows environments built on Django comes Docker ready.
 - [Bro-Osquery](https://github.com/bro/bro-osquery) - Bro integration with osquery
 - [Brosquery](https://github.com/jandre/brosquery) - A module for osquery to load Bro logs into tables
