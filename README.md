@@ -457,3 +457,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 To the extent possible under law, Adel &#34;0x4D31&#34; Karimi has waived all copyright and
 related or neighboring rights to this work.
+
+## Tools
+
+- [http-detection-agent](https://github.com/ai-blueteam/http-detection-agent) — Open-source HTTP attack-detection agent for identifying suspicious web traffic and generating actionable security detections.
