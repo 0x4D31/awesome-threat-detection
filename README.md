@@ -176,6 +176,8 @@
 
 ## Resources
 
+- [Ransomware: What to Do in the First 24 Hours](https://traztech.ca/blog/ransomware-first-24-hours) - Step-by-step incident response guide for the critical first 24 hours after a ransomware attack.
+
 - [Huntpedia](docs/huntpedia.pdf) - Your Threat Hunting Knowledge Compendium
 - [Hunt Evil](docs/hunt-evil.pdf) - Your Practical Guide to Threat Hunting
 - [The Hunter's Handbook](docs/The-Hunters-Handbook.pdf) - Endgame's guide to adversary hunting
