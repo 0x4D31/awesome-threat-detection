@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [ftagent-lite](https://github.com/Flowtriq/ftagent-lite) - Lightweight network traffic monitor with adaptive baseline detection for volumetric DDoS attacks, supporting raw packet capture, sFlow, NetFlow, and IPFIX.
 
 #### Fingerprinting Tools
 
@@ -174,6 +175,8 @@
 
 
 ## Resources
+
+- [Ransomware: What to Do in the First 24 Hours](https://traztech.ca/blog/ransomware-first-24-hours) - Step-by-step incident response guide for the critical first 24 hours after a ransomware attack.
 
 - [Huntpedia](docs/huntpedia.pdf) - Your Threat Hunting Knowledge Compendium
 - [Hunt Evil](docs/hunt-evil.pdf) - Your Practical Guide to Threat Hunting
