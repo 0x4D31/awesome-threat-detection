@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [talus](https://github.com/BartoszOsiej/talus-process-monitor) - eBPF-based ransomware detection & response agent for Linux (Rust/aya): sliding-window syscall heuristics with automated SIGKILL containment
 
 #### Configuration
 
