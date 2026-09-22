@@ -142,6 +142,7 @@
 ### Email Monitoring
 
 - [Sublime Platform](https://github.com/sublime-security/sublime-platform) - An email threat detection engine
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ## Detection Rules
 
