@@ -96,6 +96,8 @@
 
 ### Endpoint Monitoring
 
+* [ProxSuite PRO](https://github.com/prox0959/ProxSuite-PRO) - 25-in-1 native x64 Windows live memory forensics (Module Stomping, Process Ghosting, NTDLL syscall unhooking), LSASS SSP audit, C2 Named Pipe scanner, and DFIR triage suite.
+
 - [osquery](https://osquery.io) ([github](https://github.com/osquery/osquery)) - SQL powered operating system instrumentation, monitoring, and analytics
 - [Kolide Fleet](https://github.com/kolide/fleet) - A flexible control server for osquery fleets
 - [Zeek Agent](https://github.com/zeek/zeek-agent) - An endpoint monitoring agent that provides host activity to Zeek
