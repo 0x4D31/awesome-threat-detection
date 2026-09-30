@@ -104,6 +104,7 @@
 - [go-audit](https://github.com/slackhq/go-audit) - An alternative to the Linux auditd daemon
 - [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - A Windows system service and device driver that monitors and logs system activity to the Windows event log
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
+- [ETDucky.ProviderExplorer](https://github.com/trucule/ETDucky.ProviderExplorer) - Enumerates the ETW providers registered on a Windows host, subscribes to one live, and shows decoded sample events per event ID.
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
 
