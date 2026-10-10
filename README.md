@@ -116,7 +116,7 @@
 - [osquery-configuration](https://github.com/palantir/osquery-configuration) - A repository for using osquery for incident detection and response.
  
 ### Network Monitoring
-
+- [ThreatFade](https://github.com/LloydCoder/tinlance-threatfade) - Network threat-detection tool that uses entropy and z-score analysis to identify suspected command-and-control traffic suppression patterns; includes SIEM-oriented exports.
 - [Zeek](https://github.com/zeek/zeek) (formerly Bro) - A network security monitoring tool
 - [ntopng](https://github.com/ntop/ntopng) - A web-based network traffic monitoring tool
 - [Suricata](https://suricata-ids.org) - A network threat detection engine
@@ -329,6 +329,7 @@
 
 ### Blogs
 
+- [How I Detected Merlin QUIC C2 Traffic Using Entropy and Z-Scores](https://dev.to/nwachukwu_chinaemerem_f01/how-i-detected-merlin-quic-c2-traffic-using-entropy-and-z-scores-490k-packets-0-false-positives-mki) - Technical blog post on entropy and z-score analysis for suspected command-and-control traffic.
 - [David Bianco's Blog](https://detect-respond.blogspot.com)
 - [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
 - [CyberWardog's Blog](https://medium.com/@Cyb3rWard0g) ([old](https://cyberwardog.blogspot.com))
