@@ -24,6 +24,7 @@
     - [Data Science](#data-science)
     - [Research Papers](#research-papers)
     - [Blogs](#blogs)
+    - [Threat Intelligence](#threat-intelligence)
     - [Related Awesome Lists](#related-awesome-lists)
   - 🎙️ [Podcasts](#podcasts)
   - 🗞️ [Newsletters](#newsletters)
@@ -336,6 +337,10 @@
 - [Kolide Blog](https://blog.kolide.com/)
 - [Anton Chuvakin](https://medium.com/anton-on-security)
 - [Alexandre Teixeira](https://ateixei.medium.com)
+
+### Threat Intelligence
+
+- [ICHI — Internet Cyber Health Index](https://ichi.global) - A free, source-transparent daily barometer of Internet cyber health; aggregates vulnerability pressure, exploitation telemetry, malware infrastructure, threat actor activity, ransomware, and supply-chain signals into a single composite score useful for contextualizing threat hunting hypotheses.
 
 ### Related Awesome Lists
 
