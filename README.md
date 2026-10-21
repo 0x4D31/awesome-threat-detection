@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [AgentalSec](https://github.com/Beji239/agental_sec_linux) - Home and homelab network and host monitoring for Linux, with router-side visibility of every device, per-device baselines, beacon and DGA detection, and an optional LLM analyst that never acts without approval.
 
 #### Fingerprinting Tools
 
