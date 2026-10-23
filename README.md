@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [Snitch](https://github.com/aixisstudio/Snitch) - An open-source application firewall and network observer: per-process outbound monitoring, Sigma-compatible detection rules, offline threat intel, DGA/ICMP-tunnel/beaconing detection, one-click blocking via eBPF/NFQUEUE/nftables/WFP. 100% local, zero telemetry
 
 #### Fingerprinting Tools
 
