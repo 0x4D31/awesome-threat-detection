@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw) - High-performance Rust host threat detection and active response engine featuring eBPF/ETW kernel probes, YARA-X scanning, process hollowing detection, and cryptographic Merkle audit logging.
 
 #### Configuration
 
