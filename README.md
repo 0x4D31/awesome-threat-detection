@@ -398,6 +398,7 @@
 - [Security Blue Team](https://securityblue.team/) (BTL1 and BTL2 certificates)
 - [LetsDefend](https://letsdefend.io) - Hands-On SOC Analyst Training
 - [TryHackMe](https://tryhackme.com) - Hands-on cyber security training through real-world scenarios.
+- [HackTheKnowledge](https://hacktheknowledge.com/all-courses/free-soc-analyst-course) - Free SOC analyst course with browser-based alert triage simulators that grade your verdict, in English and Spanish.
 - 13Cubed, [Investigating Windows Endpoints](https://training.13cubed.com/investigating-windows-endpoints) by Richard Davis
 - [HackTheBox](https://academy.hackthebox.com/) - While not directly related to threat detection, the website features training modules on general security and offensive topics that can be beneficial for junior SOC analysts.
 
