@@ -81,6 +81,7 @@
 - [Zeek Analysis Tools (ZAT)](https://github.com/SuperCowPowers/zat): Processing and analysis of Zeek network data with Pandas, scikit-learn, Kafka and Spark.
 - [ProcMon for Linux](https://github.com/Sysinternals/ProcMon-for-Linux)
 - [Synthetic Adversarial Log Objects (SALO)](https://github.com/splunk/salo) - A framework for the generation of log events without the need for infrastructure or actions to initiate the event that causes a log event.
+- [Whatoblock](https://whatoblock.com/) - Honeypot sensor data on scanners, botnet C2 servers, proxies, Tor exit nodes and DDoS sources, with the captured payload of every scan.
 
 ### Detection, Alerting and Automation Platforms
 
