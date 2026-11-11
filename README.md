@@ -128,6 +128,7 @@
 
 #### Fingerprinting Tools
 
+- [JA4 Lookup and Decoder](https://webdecoy.com/ja4-fingerprint-format/) - Browser-based JA4 validator and decoder with transport, TLS version, SNI, cipher and extension counts, and ALPN explanations.
 - [JA3](https://github.com/salesforce/ja3) - A method for profiling SSL/TLS Clients and Servers
 - [HASSH](https://github.com/salesforce/hassh) - Profiling Method for SSH Clients and Servers
 - [RDFP](https://github.com/yahoo/rdfp) - Zeek Remote desktop fingerprinting script based on [FATT](https://github.com/0x4D31/fatt) (Fingerprint All The Things)
