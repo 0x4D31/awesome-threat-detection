@@ -142,6 +142,7 @@
 ### Email Monitoring
 
 - [Sublime Platform](https://github.com/sublime-security/sublime-platform) - An email threat detection engine
+- [MaldocTrace](https://github.com/debugactiveprocess/MaldocTrace) - Analyzes malicious Office documents by emulating VBA and Excel 4.0 macros in a simulated environment, reporting the commands, payloads and IOCs they would produce, each traced to its source line.
 
 ## Detection Rules
 
