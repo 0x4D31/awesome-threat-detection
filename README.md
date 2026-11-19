@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+  - [Wazuh Alert Manager](https://github.com/xrisbarney/Wazuh-alert-manager) - A Wazuh dashboard plugin that adds alert triage, case management with evidence and attack-path graphs, automation rules and reporting on top of Wazuh.
 
 #### Configuration
 
