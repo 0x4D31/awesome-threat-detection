@@ -106,6 +106,7 @@
 - [Sysmon for Linux](https://github.com/Sysinternals/SysmonForLinux)
 - [OSSEC](https://github.com/ossec/ossec-hids) - An open-source Host-based Intrusion Detection System (HIDS)
 - [WAZUH](https://github.com/wazuh/wazuh) - An open-source security platform
+- [NorthNarrow](https://github.com/northnarrow/northnarrow-new) - An open-source Linux EDR agent in Rust: eBPF sensors, deterministic on-host detection, BPF-LSM self-protection against root and signed, hash-chained evidence; no telemetry leaves the host (alpha, observe-only).
 
 #### Configuration
 
