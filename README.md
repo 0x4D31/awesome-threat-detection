@@ -125,6 +125,7 @@
 - [Netcap](https://github.com/dreadl0ck/netcap) - A framework for secure and scalable network traffic analysis
 - [Arkime](https://github.com/arkime/arkime)) - A large scale and open source full packet capture and search tool
 - [Stenographer](https://github.com/google/stenographer) - A full-packet-capture tool
+- [PCAP Surgery](https://hannes-software.com/pcap-surgery/) - Local-first desktop PCAP/PCAPNG analyzer and packet editor that previews bounded header rewrites and verifies IPv4/TCP/UDP checksum repairs before exporting sanitized captures (Windows & Linux, free Community Edition)
 
 #### Fingerprinting Tools
 
