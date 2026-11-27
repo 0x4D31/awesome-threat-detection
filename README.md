@@ -66,6 +66,7 @@
 - [hollows_hunter](https://github.com/hasherezade/hollows_hunter) - Scans all running processes, recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
 - [ThreatHunting](https://github.com/olafhartong/ThreatHunting) - A Splunk app mapped to MITRE ATT&CK to guide your threat hunts
 - [Sentinel Attack](https://github.com/BlueTeamLabs/sentinel-attack) - A repository of Azure Sentinel alerts and hunting queries leveraging sysmon and the MITRE ATT&CK framework
+- [BrandShield Typosquatting Shield](https://brand.shipbastion.com/typos) - Free 28-variant DNSTwist lookalike and phishing domain scanner with live IANA RDAP creation dates, MX phishing-readiness detection, and CSV export.
 - [Brim](https://github.com/brimsec/brim) - A desktop application to efficiently search large packet captures and Zeek logs
 - [Capa](https://github.com/fireeye/capa) - An open-source tool to identify capabilities in executable files.
 - [certgrep](https://certgrep.sh) - A fast Certificate Transparency Log regex domain lookup tool.
